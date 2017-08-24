@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+"@context": "https:\/\/schema.org\/",
+"@graph": 
+  [
+    {
+      "@type":"SiteNavigationElement",
+      "url":"https://www.example.com/page1",
+      "name":"Page 1"
+    },
+    {
+      "@type":"SiteNavigationElement",
+      "url":"https://www.example.com/page1",
+      "name":"Page 2"
+    },
+    {
+      "@type":"SiteNavigationElement",
+      "url":"https://www.example.com/page3",
+      "name":"Page 3"
+    }
+  ]
+}
+</script>
