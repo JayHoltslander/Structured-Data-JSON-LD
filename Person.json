@@ -1,19 +1,5 @@
 <script type="application/ld+json">
 {
-	"@context": "http://schema.org",
-	"@type": "WebSite",
-	"@id": "https://jay.holtslander.ca/#website",
-	"url": "https://jay.holtslander.ca",
-	"image": "https://jay.holtslander.ca/facebook.jpg",
-	"inLanguage": "en-CA",
-	"author": "Jay Holtslander",
-	"potentialAction": {
-		"@type": "SearchAction",
-		"target": "https://jay.holtslander.ca/?s={search_term}",
-		"query-input": "required name=search_term"
-  }
-},
-{
 "@context": "http://www.schema.org",
 "@type": "Person",
 "@id": "https://jay.holtslander.ca/#person",
