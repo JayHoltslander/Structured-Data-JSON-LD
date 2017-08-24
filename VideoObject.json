@@ -1,0 +1,12 @@
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type":"VideoObject",
+"url":"http://www.ted.com/talks/boaz_almog_levitates_a_superconductor",
+"name":"The levitating superconductor",
+"description": "How can a super-thin 3-inch disk levitate something 70,000 times its own weight? In a riveting demonstration, Boaz Almog shows how a phenomenon known as quantum locking allows a superconductor disk to float over a magnetic rail — completely frictionlessly and with zero energy loss. Experiment: Prof. Guy Deutscher, Mishael Azoulay, Boaz Almog, of the High Tc Superconductivity Group, School of Physics and Astronomy, Tel Aviv University.",
+"uploadDate": "2015-02-05T08:00:00+08:00",
+"duration": "PT10M25S",
+"thumbnailUrl": "https://tedcdnpi-a.akamaihd.net/r/tedcdnpe-a.akamaihd.net/images/ted/b9693798223a4101be834398af15df5560d3f25c_1600x1200.jpg?quality=95&amp;w=480"
+}
+</script>
