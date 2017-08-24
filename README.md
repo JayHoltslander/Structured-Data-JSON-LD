@@ -5,7 +5,7 @@
 ## Contents
 
 * **[breadcrumbs.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/breadcrumbs.json)** - An example of breadcrumbs
-* **[person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/person.json)** - My personal structured data snippet for "Person" in JSON-LD format. Results in [this](https://search.google.com/structured-data/testing-tool?url=https%3A%2F%2Fjay.holtslander.ca%2F#url=https%3A%2F%2Fjay.holtslander.ca%2F) detected entity.
+* **[person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)** - My personal structured data snippet for "Person" in JSON-LD format. Results in [this](https://search.google.com/structured-data/testing-tool?url=https%3A%2F%2Fjay.holtslander.ca%2F#url=https%3A%2F%2Fjay.holtslander.ca%2F) detected entity.
 * **SiteNavigationElement** - The SiteNavigationElement markup can help increase search engines’ understanding of your site structure and navigation and can be used to influence organic sitelinks.
 
 ## Installation
