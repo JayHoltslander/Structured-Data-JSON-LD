@@ -4,7 +4,7 @@
 
 ## Contents
 
-* **[Article](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Article.json)** - 
+* **[Article](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Article.json)** - If you’re a publisher website, the [NewsArticle](https://schema.org/NewsArticle) or [BlogPosting](https://schema.org/BlogPosting) schemas are recommended (choose one or the other, depending on your site/content). Leveraging these markups accordingly can help your content to appear in Google News and in-depth articles search suggestions.
 * **[BreadcrumbList.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BreadcrumbList.json)** - The [BreadcrumbList schema](https://schema.org/BreadcrumbList) allows you to mark up the breadcrumbs on your site to generate breadcrumb rich snippets for your pages in the SERPs.
 * **[Person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)** - My personal structured data snippet for "Person" in JSON-LD format. Results in [this](https://search.google.com/structured-data/testing-tool?url=https%3A%2F%2Fjay.holtslander.ca%2F#url=https%3A%2F%2Fjay.holtslander.ca%2F) detected entity.
 * **[SiteNavigationElement](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SiteNavigationElement.json)** - The [SiteNavigationElement schema](http://schema.org/SiteNavigationElement) can help increase search engines’ understanding of your site structure and navigation and can be used to influence organic sitelinks.
