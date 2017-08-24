@@ -8,36 +8,32 @@
 		"@type": "ListItem",
 			"position": 1,
 			"item": {
-				"@id": "https://example.com/books",
-				"name": "Books",
-				"image": "http://example.com/images/icon-book.png"
+				"@id": "https://jay.holtslander.ca/home",
+				"name": "Home"
 			}
 		},
 		{
 		"@type": "ListItem",
 			"position": 2,
 			"item": {
-				"@id": "https://example.com/books/authors",
-				"name": "Authors",
-				"image": "http://example.com/images/icon-author.png"
+				"@id": "https://jay.holtslander.ca/home/about",
+				"name": "About"
 			}
 		},
 		{
 		"@type": "ListItem",
 			"position": 3,
 			"item": {
-				"@id": "https://example.com/books/authors/annleckie",
-				"name": "Ann Leckie",
-				"image": "http://example.com/images/author-leckie-ann.png"
+				"@id": "https://jay.holtslander.ca/home/about/projects",
+				"name": "The big project"
 			}
 		},
 		{
 		"@type": "ListItem",
 			"position": 4,
 			"item": {
-				"@id": "https://example.com/books/authors/ancillaryjustice",
-				"name": "Ancillary Justice",
-				"image": "http://example.com/images/cover-ancillary-justice.png"
+				"@id": "https://jay.holtslander.ca/home/about/projects/project",
+				"name": "Project name"
 			}
 		}
 	]
