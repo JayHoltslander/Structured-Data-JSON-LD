@@ -1,0 +1,8 @@
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@id": "ServiceOfferedID1",
+  "@type":"Service",
+  "name":"Will preparation"
+}
+</script>
