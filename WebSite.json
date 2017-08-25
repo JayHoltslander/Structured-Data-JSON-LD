@@ -11,6 +11,21 @@
 		"@type": "SearchAction",
 		"target": "https://jay.holtslander.ca/?s={search_term}",
 		"query-input": "required name=search_term"
-  }
+  	},
+	"keywords":[
+		"Social Networking",
+		"Social Media",
+		"News",
+		"Web",
+		"Technology",
+		"Web 2.0",
+		"Tech",
+		"Information",
+		"Blog",
+		"Facebook",
+		"YouTube",
+		"Google",
+		"Top"
+	]
 }
 </script>
