@@ -1,6 +1,6 @@
 # Structured Data - JSON-LD
 
-[![Join the chat at https://gitter.im/Jays-Structured-Data/Lobby](https://badges.gitter.im/Jays-Structured-Data/Lobby.svg)](https://gitter.im/Jays-Structured-Data/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) ![https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg]()
+[![Join the chat at https://gitter.im/Jays-Structured-Data/Lobby](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/Jays-Structured-Data/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) ![](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)
 
 Structured Data is hard. Conflicting info. Old outdated information. Poor documentation. I've spent a significant amout of time trying to master it. Now you can benefit from all my hard work and testing. Everything here works properly or it wouldn't be here.
 
