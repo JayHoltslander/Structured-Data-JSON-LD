@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"ViewAction",
+  "target": [
+      {
+      "@type": "EntryPoint",
+      "urlTemplate": "android-app://com.google.android.youtube/http/www.youtube.com?utm_source=google&utm_medium=appindex&utm_campaign=appindex"
+      },
+      {
+      "@type": "EntryPoint",
+      "urlTemplate": "ios-app://544007664/vnd.youtube/www.youtube.com?utm_source=google&utm_medium=appindex&utm_campaign=appindex"
+      }
+	]
+}
+</script>
