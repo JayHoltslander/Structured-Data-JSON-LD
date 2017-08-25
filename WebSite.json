@@ -4,6 +4,7 @@
 	"@type": "WebSite",
 	"@id": "https://jay.holtslander.ca/#website",
 	"url": "https://jay.holtslander.ca",
+	"headline": "Like a page title",
 	"image": "https://jay.holtslander.ca/facebook.jpg",
 	"inLanguage": "en-CA",
 	"author": "Jay Holtslander",
