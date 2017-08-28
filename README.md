@@ -34,3 +34,19 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 
 ## Testing
 Wordpress users can use the awesome [Structured-Data-Test-Button Plugin](https://en-ca.wordpress.org/plugins/structured-data-test-button/), Yoast's Admin bar functions, or others. Everyone else can just visit the Google [Structured Data Test Tool](https://search.google.com/structured-data/testing-tool).
+
+## See also:
+
+* **REALLY good instructions** - <https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/>
+* **Implement JSON-LD within the Wordpress Divi theme** - <http://ahmedkaludi.com/structured-data-divi-theme/>
+* **Reference - Local Business** - <http://linter.structured-data.org/examples/schema.org/LocalBusiness/>
+* **Reference - Corporate Contacts** - <https://developers.google.com/search/docs/data-types/corporate-contacts>
+* **Reference - Contact point** - <http://linter.structured-data.org/examples/schema.org/ContactPoint/>
+* **Example - Person** - <http://jsonld.com/person/>
+* **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
+* **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
+* **GeoShape info 3** - <http://schema.org/GeoShape>
+* <http://razorrank.com/structured-data/homepage-structured-data-with-json-ld/>
+* <https://developers.google.com/gmail/markup/reference/go-to-action>
+* <https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/>
+* <https://yoast.com/structured-data-schema-ultimate-guide/>
