@@ -1,10 +1,14 @@
-<!-- Source: Google. See: https://developers.google.com/search/docs/data-types/job-postings -->
+<!-- Source: Google
+Resources: 
+* https://developers.google.com/search/docs/data-types/job-postings 
+* https://developers.google.com/search/docs/data-types/job-postings#definitions
+-->
 
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org/",
   "@type" : "JobPosting",
-  "title" : "Fitter and Turner",
+  "title" : "Data Entry Clerk",
   "description" : "<p>Widget assembly role for pressing wheel assemblies.</p>
     <p><strong>Educational Requirements:</strong> Completed level 2 ISTA
     Machinist Apprenticeship.</p>
@@ -34,14 +38,24 @@
       "addressCountry": "US"
     }
   },
-  "baseSalary": {
-    "@type": "MonetaryAmount",
-    "currency": "USD",
-    "value": {
-      "@type": "QuantitativeValue",
-      "value": 40.00,
-      "unitText": "HOUR"
+  "baseSalary" : {
+  "@type": "MonetaryAmount",
+  "currency": "CAD",
+  "value": {
+    "@type": "QuantitativeValue",
+    <!-- Use Value or Min/Max Values (Range) but not both. -->
+    "value": 0.00,
+    "minValue": 0.00,
+    "maxValue": 0.00,
+    "unitText": "HOUR"
     }
-  }
+  },
+  "educationRequirements": "",
+  "experienceRequirements": "",
+  "industry": "",
+  "qualifications": "",
+  "responsibilities": "",
+  "skills": "",
+  "workHours": "",
 }
 </script>
