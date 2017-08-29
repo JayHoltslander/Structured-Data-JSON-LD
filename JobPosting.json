@@ -21,7 +21,7 @@ Resources:
   },
   "datePosted" : "2017-01-18",
   "validThrough" : "2017-03-18T00:00",
-  "employmentType" : "FULL_TIME",
+  "employmentType" : ["FULL_TIME", "CONTRACTOR"],
   "hiringOrganization" : {
     "@type" : "Organization",
     "name" : "MagsRUs Wheel Company",
