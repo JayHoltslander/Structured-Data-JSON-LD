@@ -1,0 +1,47 @@
+<!-- Source: Google. See: https://developers.google.com/search/docs/data-types/job-postings -->
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org/",
+  "@type" : "JobPosting",
+  "title" : "Fitter and Turner",
+  "description" : "<p>Widget assembly role for pressing wheel assemblies.</p>
+    <p><strong>Educational Requirements:</strong> Completed level 2 ISTA
+    Machinist Apprenticeship.</p>
+    <p><strong>Required Experience:</strong> At
+    least 3 years in a machinist role.</p>",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "MagsRUs Wheel Company",
+    "value": "1234567"
+  },
+  "datePosted" : "2017-01-18",
+  "validThrough" : "2017-03-18T00:00",
+  "employmentType" : "CONTRACTOR",
+  "hiringOrganization" : {
+    "@type" : "Organization",
+    "name" : "MagsRUs Wheel Company",
+    "sameAs" : "http://www.magsruswheelcompany.com"
+  },
+  "jobLocation" : {
+    "@type" : "Place",
+    "address" : {
+      "@type" : "PostalAddress",
+      "streetAddress" : "555 Clancy St",
+      "addressLocality" : "Detroit",
+      "addressRegion" : "MI",
+      "postalCode" : "48201",
+      "addressCountry": "US"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": 40.00,
+      "unitText": "HOUR"
+    }
+  }
+}
+</script>
