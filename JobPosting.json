@@ -43,7 +43,7 @@ Resources:
   "currency": "CAD",
   "value": {
     "@type": "QuantitativeValue",
-    "value": 0.00, <!-- Use Value or Min/Max Values (Range) but not both. -->
+    "value": 0.00, // Use Value or Min/Max Values (Range) but not both.
     "minValue": 0.00,
     "maxValue": 0.00,
     "unitText": "HOUR"
