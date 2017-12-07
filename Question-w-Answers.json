@@ -1,0 +1,55 @@
+<!-- As observed at: https://search.google.com/structured-data/testing-tool?hl=en#url=https%3A%2F%2Fserverfault.com%2Fquestions%2F339661%2Fwill-changing-nameservers-cause-down-time -->
+<!-- See: http://cdn.skunkworks.ca.s3.amazonaws.com/temp-screenshots/Screen_Shot_2017-12-07_at_11.44.40_AM.png -->
+
+<script type="application/ld+json">
+[
+	{
+		"@context":"http://schema.org/",
+		"@type":"QAPage",
+		"name": "Will changing NameServers cause down time?",
+		"image": "https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon@2.png?v=9b1f48ae296b",
+		"description": "My domain registrar is Company A and we use two of their nameservers for DNS. We host our own server hardware in a datacenter that's not affiliated with Company A. Everything about Company A sucks....",
+		"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"name": "https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon@2.png?v=9b1f48ae296b"
+			}
+	},
+	{
+		"@context":"http://schema.org/",
+		"@id": "Question1",
+		"@type":"Question",
+		"name":"Will changing NameServers cause down time?",
+		"image": "https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon.png?v=6c3100d858bb",
+		"upvoteCount": "8",
+		"answerCount": "4",
+		"text": "My domain registrar is Company A and we use two of their nameservers for DNS. We host our own server hardware in a datacenter that's not affiliated with Company A. Everything about Company A sucks. So we've set up a new account on DNSmadeeasy.com and I copied all our A, MX, and CNAME records over (they take care of SOA and NS). Now, when I log in to my registrar's panel and switch the name servers from theirs to DNSME, are we going to experience any sort of interruption in service? My initial thought it no, we shouldn't. As with any DNS changes, propagation can take up to 72 hours, but if certain name servers don't have the updated zone files yet, they'll most likely used cached information which is all the same (because NO IP addresses are changing... it's an exact replica). So what do you think? Should I go ahead and make the change or should I pick a scheduled date and notify clients that they may experience connectivity issues within the 72 hour window? UPDATE: Nearly 72 hours have passed and we didn't even have as much as a hiccup. Throughout the last 72 hours I've used nslookup to query several different servers for my NS records and it took about 48 hours for all of them to show the new name servers. The whois information changed almost immediately. So bottom line for anyone that has the same worries as I did, as long as the new DNS providers have the exact same zone information, you won't have any issues.",
+		"acceptedAnswer": {
+			"@type": "Answer",
+			"@id": "https://serverfault.com/questions/339661/answer-339663",
+			"upvoteCount": "10",
+			"text": "No, as long as both sets of nameservers have the same records you'll experience no downtime."
+		}
+	},
+	{
+		"@context":"http://schema.org/",
+		"@id": "https://serverfault.com/questions/339661/answer-340220",
+		"@type":"Answer",
+		"upvoteCount": "3",
+		"text": "There should be no downtime if records are the same. I always like to confirm both records are the same by doing lookups directly against the DNS made easy nameservers. You can use an online tool for this or you can use dig @ns#.dnsmadeeasy.com domain.com A etc. To confirm each record."
+	},
+	{
+		"@context":"http://schema.org/",
+		"@id": "https://serverfault.com/questions/339661/answer-620889",
+		"@type":"Answer",
+		"upvoteCount": "3",
+		"text": "This is something to be slightly wary of in my recent experience. We were previously using Company A, who sucks. They were the domain registrar and the DNS host for ourcompanydomain.com. We set up the same DNS A and MX records for ourcompanydomain.com with Company B. We then changed the nameservers for ourcompanydomain.com in Company A's control panel to ns.companyb.com and ns2.companyb.com, assuming that because the same DNS entries existed in both places, the swap would be seamless. However, shortly afterwards mail to anything@ourcompanydomain.com went down in various places. I'm no DNS expert, but my assumption is that Company A stopped responding to DNS lookups for our domain before everything had propagated. Bottom line - unless you have full control of the process, I'd make sure you have a contingency plan for possible downtime when changing nameservers."
+	},
+	{
+		"@context":"http://schema.org/",
+		"@id": "https://serverfault.com/questions/339661/answer-339667",
+		"@type":"Answer",
+		"upvoteCount": "-6",
+		"text": "Yes and no. It won't cause any downtime if both servers (the old and the new) are running, but what I will do is cause some discrepancies. What I mean is that if the DNS of one of your users has not updated to the new nameservers, they will be on the old server. Depending on what your running, this could be good or bad. And on the other hand, some DNS servers may be updated and pointing to your new server. Essentially, you need to make sure you have both servers up for at least two days (just in case - some DNS servers are very slow at updating) until you take the old server down completely. I'd at least put in warning at least five hours before you make the change, just in case. :)"
+	}
+]
+</script>
