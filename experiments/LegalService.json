@@ -1,0 +1,27 @@
+<!-- Doh! The property Service is not recognized by Google for an object of type LegalService. -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "legalservice",
+  "additionalType": "http://www.productontology.org/id/Personal_injury_lawyer",
+  "name": "Law firm Inc.",
+  "address": "1234 Street",
+  "telephone": "6045554321",
+  "priceRange": "$$$",
+  "image": "http://placehold.it/640x480",
+  "Service": /* Doh! The property Service is not recognized by Google for an object of type LegalService. */
+  [
+    {
+    "@type": "Service",
+    "Service": "Legal service name 1",
+    "description": "A brief summary description of the service item being described."
+    },
+    {
+    "@type": "Service",
+    "Service": "Legal service name 2",
+    "description": "A brief summary description of the service item being described."
+    }
+  ]
+}
+</script>
