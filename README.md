@@ -28,7 +28,7 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FQuestion-w-Answers.json)<br><br>
 
-* **[Service.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Service.json)** - A single service that a LocalBusiness may provide.<br><br>
+* **[Service.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Service.json)** - A collection of services that a LocalBusiness may provide with per/service ratings.<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Service.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FService.json)<br><br>
 
 * **[ServiceArea](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ServiceArea.json)** - How to define a service area for a local business.<br><br>
