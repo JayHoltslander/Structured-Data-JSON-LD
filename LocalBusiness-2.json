@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": [
+		"Organization",
+		"LocalBusiness",
+		"LegalService"
+	],
+	"name": "Law firm Inc.",
+	"logo" : "http://placehold.it/640",
+	"url" : "https://lawfirm.com",
+	"openingHours": "Mo,Tu,We,Th 09:00-12:00",
+	"image": "http://placehold.it/640x480",
+	"address": "1234 Street",
+	"telephone": "6045554321",
+	"priceRange": "$$$",
+	"sameAs" : [
+		"https://twitter.com/lawfirm",
+		"https://www.facebook.com/lawfirm",
+		"https://www.linkedin.com/company/lawfirm",
+		"https://plus.google.com/lawfirm/posts"
+	]
+}
+</script>
