@@ -1,8 +1,50 @@
 <script type="application/ld+json">
-{
-  "@context":"http://schema.org/",
-  "@id": "ServiceOfferedID1",
-  "@type":"Service",
-  "name":"Will preparation"
-}
+[
+	{
+		"@context": "http://schema.org/",
+		"@type": "Service",
+		"name": "Will preparation",
+		"description": "A brief summary description of the service item being described.",
+		"provider": {
+			"@type": "Organization",
+			"name": "Notary Inc."
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"reviewCount": "20"
+		},
+		"isSimilarTo": {
+			"@type": "Service",
+			"name": "Notary service2 name"
+		},
+		"isRelatedTo": {
+			"@type": "Service",
+			"name": "Notary service3 name"
+		}
+	},
+	{
+		"@context": "http://schema.org/",
+		"@type": "Service",
+		"name": "Notarizations",
+		"description": "A brief summary description of the service item being described.",
+		"provider": {
+			"@type": "Organization",
+			"name": "Notary Inc."
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"reviewCount": "20"
+		},
+		"isSimilarTo": {
+			"@type": "Service",
+			"name": "Notary service2 name"
+		},
+		"isRelatedTo": {
+			"@type": "Service",
+			"name": "Notary service3 name"
+		}
+	}
+]
 </script>
