@@ -21,6 +21,9 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * **[LocalBusiness-2.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-2.json)** - An example of a LocalBusiness customized for a law firm. Demonstrates combined @types (LocalBusiness/Organization/LegalService)<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-2.json)<br><br>
 
+* **[LocalBusiness-3.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-3.json)** - A detailed example of a complex LocalBusiness customized for a Notary. Demonstrates combined @types (LocalBusiness/Organization/LegalService)<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-3.json)<br><br>
+
 * **[Person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)** - My personal structured data snippet for "Person" in JSON-LD format.<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Person.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FPerson.json)<br><br>
 
