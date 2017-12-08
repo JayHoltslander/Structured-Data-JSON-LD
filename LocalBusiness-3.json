@@ -1,0 +1,211 @@
+<script type='application/ld+json'> 
+{
+	"@context": "http://www.schema.org",
+	"@type": ["Organization", "LocalBusiness","Notary"],
+	"image": "http://placehold.it/512",
+	"name": "Notary Public Inc.",
+	"legalName" : "Notary Public Inc.",
+	"alternateName": "John Doe Notary",
+	"url": "http://search.google.com",
+	"logo": "http://placehold.it/512",
+	"telephone": "555-111-2345",
+	"description": "This is your business description.",
+	"priceRange": "$$",
+	"openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+	"paymentAccepted":"Visa, Master Card, Discover, Amex, ApplePay, AndroidPay, Bitcoin",
+	"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Manhattan",
+		"addressRegion": "NY",
+		"postalCode":"10036",
+		"streetAddress": "400 Broadway"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "10.75",
+		"longitude": "5.89"
+	},
+	"contactPoint": [
+		{ 
+			"@type": "ContactPoint",
+			"telephone": "+1-401-555-1212",
+			"contactType": "customer service",
+			"email": "info@elite-strategies.com",
+			"areaServed": [
+				"US",
+				"CA",
+				"MX"
+			],
+			"availableLanguage": [
+				"French",
+				"English"
+			]
+		}
+	],
+	"sameAs": [
+		"http://www.freebase.com/m/0_h96pq",
+		"http://www.facebook.com/elitestrategies",
+		"http://www.twitter.com/delraybeachseo",
+		"http://pinterest.com/elitestrategies/",
+		"http://elitestrategies.tumblr.com/",
+		"http://www.linkedin.com/company/elite-strategies",
+		"https://plus.google.com/106661773120082093538"
+	],
+	"makesOffer":[
+		{
+			"@type":"Offer",
+			"itemOffered":
+				{
+					"@type":"Service",
+					"name":"Service name",
+					"url":"http://example.com/a-leaf-page/for/service"
+				}
+			},
+			{
+				"@type":"Offer",
+				"itemOffered":
+				{
+					"@type":"Service",
+					"name":"Another Service name",
+					"url":"http://example.com/a-leaf-page/for/service2"
+				}
+			}
+	],
+	"location": [
+		{
+			"@type": "PostalAddress",
+			"telephone": "+16046898888",
+			"streetAddress": "#1301-808 Nelson Street",
+			"addressLocality": "Vancouver",
+			"addressRegion": "BC",
+			"addressCountry": "Canada",
+			"postalCode": "V6Z2H2",
+			"serviceArea":
+				[
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Richmond",
+						"addressRegion": "British Columbia"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Surrey",
+						"addressRegion": "British Columbia"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"Burnaby",
+						"addressRegion": "British Columbia"
+					}
+				]
+		},
+		{
+			"@type": "PostalAddress",
+			"telephone": "+16045918885",
+			"streetAddress": "7253-120 Street",
+			"addressLocality": "Delta",
+			"addressRegion": "BC",
+			"addressCountry": "Canada",
+			"postalCode": "V4C6P5"
+		}
+	],
+	"aggregateRating": {
+			"@type":"AggregateRating",
+			"ratingValue":"9.3",
+			"bestRating":"10",
+			"reviewCount":"719"
+	},
+	"potentialAction": {
+		"@type": "OrderAction",
+		"target":
+		{
+			"@type": "EntryPoint",
+			"name":"Book Now",
+			"urlTemplate": "https://new.simpsonthomas.com/contact#contact-form",
+			"inLanguage": "en-CA",
+			"actionPlatform":
+			[
+				"http://schema.org/DesktopWebPlatform",
+				"http://schema.org/IOSPlatform",
+				"http://schema.org/AndroidPlatform"
+			]
+		},
+		"result":
+		{
+			"@type": "Reservation",
+			"name": "Book Your Free Legal Consultation"
+		}
+	},
+	"foundingDate": "1980",
+	"founders": [
+		{
+			"@type": "Person",
+			"name": "John Doe",
+			"worksFor": "Notary Public Inc.",
+			"email": "mailto:john@example.com",
+			"image": "johndoe.jpg",
+			"jobTitle": "Partner",
+			"alumniOf": "Dartmouth",
+			"birthPlace": "Philadelphia, PA",
+			"birthDate": "1979.10.12",
+			"height": "72 inches",
+			"gender": "male",
+			"nationality": "American",
+			"telephone": "(123) 456-6789",
+			"url": "http://www.example.com/founder",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Manhattan",
+				"addressRegion": "NY",
+				"postalCode":"10036",
+				"streetAddress": "400 Broadway"
+			},
+			"colleague": [
+				"http://www.example.com/JohnColleague.html",
+				"http://www.example.com/JaneColleague.html"
+			],
+			"sameAs" : [
+				"https://www.facebook.com/founder",
+				"https://www.linkedin.com/founder",
+				"http://twitter.com/founder",
+				"http://instagram.com/founder",
+				"https://plus.google.com/founder"
+			]
+		},
+		{
+			"@type": "Person",
+			"name": "Jane Doe",
+			"worksFor": "Notary Public Inc.",
+			"email": "mailto:jane@example.com",
+			"image": "janedoe.jpg",
+			"jobTitle": "Partner",
+			"alumniOf": "Dartmouth",
+			"birthPlace": "Philadelphia, PA",
+			"birthDate": "1978.04.22",
+			"height": "65 inches",
+			"gender": "female",
+			"nationality": "American",
+			"telephone": "(123) 654-9876",
+			"url": "http://www.example.com/founder2",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Manhattan",
+				"addressRegion": "NY",
+				"postalCode":"10036",
+				"streetAddress": "400 Broadway"
+			},
+			"colleague": [
+				"http://www.example.com/JohnColleague.html",
+				"http://www.example.com/JaneColleague.html"
+			],
+			"sameAs" : [
+				"https://www.facebook.com/founder2",
+				"https://www.linkedin.com/founder2",
+				"http://twitter.com/founder2",
+				"http://instagram.com/founder2",
+				"https://plus.google.com/founder2"
+			]
+		}	
+	]
+}
+</script>
