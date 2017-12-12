@@ -12,7 +12,7 @@
 	"inLanguage": "en-CA",
 	"author": "Jay Holtslander",
 	"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
-	"disambiguatingDescription": "Personal website of Jay Holtslander"
+	"disambiguatingDescription": "Personal website of Jay Holtslander",
 	"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://jay.holtslander.ca/?s={search_term}",
