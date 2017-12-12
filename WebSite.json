@@ -3,11 +3,16 @@
 	"@context": "http://schema.org",
 	"@type": "WebSite",
 	"@id": "https://jay.holtslander.ca/#website",
+	"additionalType": ["CreativeWork", "Person"],
 	"url": "https://jay.holtslander.ca",
+	"name": "Jay Holtslander",
+	"alternateName": "j_holtslander",
 	"headline": "Like a page title",
 	"image": "https://jay.holtslander.ca/facebook.jpg",
 	"inLanguage": "en-CA",
 	"author": "Jay Holtslander",
+	"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
+	"disambiguatingDescription": "Personal website of Jay Holtslander"
 	"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://jay.holtslander.ca/?s={search_term}",
