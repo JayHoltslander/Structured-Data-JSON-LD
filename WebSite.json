@@ -2,6 +2,11 @@
 [
 	{
 		"@context": "http://schema.org",
+		"@type": "Webpage",
+		"specialty": "CNBC homepage, stock markets, business news, financial news"
+	},
+	{
+		"@context": "http://schema.org",
 		"@type": "WebSite",
 		"@id": "https://jay.holtslander.ca/#website",
 		"additionalType": ["CreativeWork", "Person"],
@@ -14,6 +19,10 @@
 		"author": "Jay Holtslander",
 		"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
 		"disambiguatingDescription": "Personal website of Jay Holtslander",
+		"specialty": "CNBC homepage, stock markets, business news, financial news",
+		"isFamilyFriendly": "http://schema.org/True",
+		"contentRating": "NR",
+		"sourceOrganization": "CNBC",
 		"potentialAction": {
 			"@type": "SearchAction",
 			"target": "https://jay.holtslander.ca/?s={search_term}",
