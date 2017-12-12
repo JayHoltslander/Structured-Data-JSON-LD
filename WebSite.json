@@ -1,37 +1,61 @@
 <script type="application/ld+json">
-{
-	"@context": "http://schema.org",
-	"@type": "WebSite",
-	"@id": "https://jay.holtslander.ca/#website",
-	"additionalType": ["CreativeWork", "Person"],
-	"url": "https://jay.holtslander.ca",
-	"name": "Jay Holtslander",
-	"alternateName": "j_holtslander",
-	"headline": "Like a page title",
-	"image": "https://jay.holtslander.ca/facebook.jpg",
-	"inLanguage": "en-CA",
-	"author": "Jay Holtslander",
-	"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
-	"disambiguatingDescription": "Personal website of Jay Holtslander",
-	"potentialAction": {
-		"@type": "SearchAction",
-		"target": "https://jay.holtslander.ca/?s={search_term}",
-		"query-input": "required name=search_term"
-  	},
-	"keywords":[
-		"Social Networking",
-		"Social Media",
-		"News",
-		"Web",
-		"Technology",
-		"Web 2.0",
-		"Tech",
-		"Information",
-		"Blog",
-		"Facebook",
-		"YouTube",
-		"Google",
-		"Top"
-	]
-}
+[
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"@id": "https://jay.holtslander.ca/#website",
+		"additionalType": ["CreativeWork", "Person"],
+		"url": "https://jay.holtslander.ca",
+		"name": "Jay Holtslander",
+		"alternateName": "j_holtslander",
+		"headline": "Like a page title",
+		"image": "https://jay.holtslander.ca/facebook.jpg",
+		"inLanguage": "en-CA",
+		"author": "Jay Holtslander",
+		"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
+		"disambiguatingDescription": "Personal website of Jay Holtslander",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://jay.holtslander.ca/?s={search_term}",
+			"query-input": "required name=search_term"
+		},
+		"keywords":[
+			"Social Networking",
+			"Social Media",
+			"News",
+			"Web",
+			"Technology",
+			"Web 2.0",
+			"Tech",
+			"Information",
+			"Blog",
+			"Facebook",
+			"YouTube",
+			"Google",
+			"Top"
+		]
+	},
+	{
+		"@context":"http://schema.org",
+		"@type":"WPSidebar",
+		"@id": "#sidebar",
+		"citation": [
+			"https://domain.com/link",
+			"https://domain2.com/link2",
+			"https://domain2.com/link3"
+		],
+		"comment": [
+			"This is a user comment that may appear in the sidebar.",
+			"This is another user comment that may be there as well."
+		]
+	},
+	{
+		"@context":"http://schema.org",
+		"@type":"WPFooter",
+		"@id": "#footer",
+		"copyrightHolder":"Jay Holtslander",
+		"publisher": "Jay Holtslander",
+		"copyrightYear":"2017"
+	}
+]
 </script>
