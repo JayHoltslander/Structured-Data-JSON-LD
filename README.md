@@ -72,6 +72,7 @@ Wordpress users can use the awesome [Structured-Data-Test-Button Plugin](https:/
 * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
 * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
 * **GeoShape info 3** - <http://schema.org/GeoShape>
+* **Schema Tool** - <https://schema.pythonanywhere.com> [About this tool](http://polak.es/en/generator.html)
 * <http://razorrank.com/structured-data/homepage-structured-data-with-json-ld/>
 * <https://developers.google.com/gmail/markup/reference/go-to-action>
 * <https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/>
