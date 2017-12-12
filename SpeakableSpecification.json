@@ -1,0 +1,15 @@
+<!-- Defines one or more css classes as indicating particularly speakable text.  -->
+
+<script type="application/ld+json">
+{
+	"@context":"http://schema.org",
+	"@type": "SpeakableSpecification",
+	"cssSelector": [
+			".speakable",
+			".voice-search"
+	]
+}
+</script>
+
+<h1 class="speakable">Reviews</h1>
+<p>The law society's rules prevent lawyers from making superlative claims such as that they are <span class="voice-search">best lawyer</span>. So read these testimonials below instead.</p>
