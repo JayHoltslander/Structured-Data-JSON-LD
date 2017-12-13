@@ -27,6 +27,27 @@
 		"isFamilyFriendly": "http://schema.org/True",
 		"contentRating": "NR",
 		"sourceOrganization": "CNBC",
+		"mainEntity": {
+			"@context": "http://schema.org",
+			"@type": "localBusiness",
+			"name": "Jay Holtslander",
+			"image":"http://placehold.it/512",
+			"priceRange":"$$",
+			"telephone":"555-321-7654",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "#600 - 55 Water Street, Vancouver, BC V6B 1A1",
+				"addressLocality": "Vancouver",
+				"addressRegion": "British Columbia",
+				"addressCountry": "Canada",
+				"postalCode": "v6b1a1"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"reviewCount": "50"
+			}
+		},
 		"potentialAction": {
 			"@type": "SearchAction",
 			"target": "https://jay.holtslander.ca/?s={search_term}",
