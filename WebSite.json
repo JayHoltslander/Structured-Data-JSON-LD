@@ -47,11 +47,6 @@
 			"Google",
 			"Top"
 		],
-		"mainContentOfPage": {
-			"@context": "http://schema.org/",
-			"@type": "WebPageElement",
-			"cssSelector": ".body-content"
-		},
 		"hasPart": [
 			{
 				"@context": "http://schema.org/",
