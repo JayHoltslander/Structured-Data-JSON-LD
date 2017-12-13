@@ -61,6 +61,15 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 
 ![](http://i.imgur.com/qVBR2kB.jpg)
 
+## To-do
+* [ ] [SiteNavigationElement](http://schema.org/SiteNavigationElement)
+* [ ] [Table](http://schema.org/Table)
+* [ ] [WPAdBlock](http://schema.org/WPAdBlock)
+* [x] ~~WPFooter~~
+* [x] ~~WPSideBar~~
+* [ ] [WPHeader](http://schema.org/WPHeader)
+
+
 ## Support
 If you found this saved you time feel free to make a donation.
 
