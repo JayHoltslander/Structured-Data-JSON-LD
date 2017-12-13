@@ -3,6 +3,10 @@
     "@context": "http://www.schema.org",
     "@type": "LocalBusiness",
     "name": "Skunkworks Creative Group",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://skunkworks.ca/"
+    },
     "address": [
     /* Put the main office address here */
         {
