@@ -41,7 +41,7 @@
 			"YouTube",
 			"Google",
 			"Top"
-		]
+		],
 		"mainContentOfPage": {
 			"@context": "http://schema.org/",
 			"@type": "WebPageElement",
