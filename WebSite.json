@@ -3,7 +3,12 @@
 	{
 		"@context": "http://schema.org",
 		"@type": "Webpage",
-		"specialty": "CNBC homepage, stock markets, business news, financial news"
+		"specialty": "CNBC homepage, stock markets, business news, financial news",
+		"mainContentOfPage": {
+			"@context": "http://schema.org/",
+			"@type": "WebPageElement",
+			"cssSelector": ".body-content"
+		}
 	},
 	{
 		"@context": "http://schema.org",
