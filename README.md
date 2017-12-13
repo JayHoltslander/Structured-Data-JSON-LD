@@ -68,6 +68,11 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * [x] ~~WPFooter~~
 * [x] ~~WPSideBar~~
 * [ ] [WPHeader](http://schema.org/WPHeader)
+* [ ] [CheckoutPage](http://schema.org/CheckoutPage)
+* [ ] [NewsArticle](http://schema.org/NewsArticle)
+* [ ] [TechArticle](http://schema.org/TechArticle)
+* [ ] [Report](http://schema.org/Report)
+* [ ] [SocialMediaPosting](http://schema.org/SocialMediaPosting)
 
 
 ## Support
