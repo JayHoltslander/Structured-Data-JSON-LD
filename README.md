@@ -61,6 +61,11 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 
 ![](http://i.imgur.com/qVBR2kB.jpg)
 
+## Support
+If you found this saved you time feel free to make a donation.
+
+[![](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://www.paypal.me/jayholtslander)
+
 ## Testing
 Wordpress users can use the awesome [Structured-Data-Test-Button Plugin](https://en-ca.wordpress.org/plugins/structured-data-test-button/), Yoast's Admin bar functions, or others. Everyone else can just visit the Google [Structured Data Test Tool](https://search.google.com/structured-data/testing-tool).
 
