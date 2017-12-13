@@ -14,6 +14,10 @@
 	"address": "1234 Street",
 	"telephone": "6045554321",
 	"priceRange": "$$$",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://lawfirm.com/"
+	},
 	"sameAs" : [
 		"https://twitter.com/lawfirm",
 		"https://www.facebook.com/lawfirm",
