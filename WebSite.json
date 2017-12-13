@@ -27,6 +27,16 @@
 		"isFamilyFriendly": "http://schema.org/True",
 		"contentRating": "NR",
 		"sourceOrganization": "CNBC",
+		"publisher": {
+		  "@type": "Organization",
+		  "name": "ThinkwithGoogle",
+		  "logo": {
+		    "@type": "ImageObject",
+		    "url": "https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-small.jpg",
+		    "height": 60,
+		    "width": 107
+		  }
+		},
 		"mainEntity": {
 			"@context": "http://schema.org",
 			"@type": "localBusiness",
