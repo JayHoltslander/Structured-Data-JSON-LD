@@ -82,7 +82,13 @@
 			{
 				"@context": "http://schema.org/",
 				"@type": "WPHeader",
-				"image":"http://placehold.it/512"
+				"headline": "headline-string",
+				"cssSelector": "#header",
+				"potentialAction": {
+					"@type": "Action",
+					"name": "Contact",
+					"target": "http://google.ca/"
+				}
 			},
 			{
 				"@context": "http://schema.org/",
