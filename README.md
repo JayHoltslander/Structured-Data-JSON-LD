@@ -54,6 +54,8 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 
 ## Installation
 **A.)** Use [Google Tag Manager](https://www.google.com/analytics/tag-manager/) to insert the code with the "Custom HTML" tag. (See screenshot below.)
+  * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
+  * [Adding JSON-LD structured data with Google Tag Manager](https://yoast.com/structured-data-google-tag-manager/)
 
 **B.)** Hand code it in.
 
@@ -73,6 +75,9 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * [ ] [TechArticle](http://schema.org/TechArticle)
 * [ ] [Report](http://schema.org/Report)
 * [ ] [SocialMediaPosting](http://schema.org/SocialMediaPosting)
+* [ ] [GeoShape](http://schema.org/GeoShape)
+  * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
+  * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
 
 
 ## Support
@@ -85,17 +90,20 @@ Wordpress users can use the awesome [Structured-Data-Test-Button Plugin](https:/
 
 ## See also:
 
+### Tools
+* **[SchemaApp Web Tool](https://www.schemaapp.com/tools/jsonld-schema-generator/)**
+* **[Schema Tool](https://schema.pythonanywhere.com)** ([About this tool](http://polak.es/en/generator.html))
+
+### Articles
 * **REALLY good instructions** - <https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/>
-* **Implement JSON-LD within the Wordpress Divi theme** - <http://ahmedkaludi.com/structured-data-divi-theme/>
+* **[5 Common schema problems and what to do about them](https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/)**
+* **[Implement JSON-LD within the Wordpress Divi theme](http://ahmedkaludi.com/structured-data-divi-theme/)**
+* **[Structured Data Actions in email](https://developers.google.com/gmail/markup/reference/go-to-action)**
+* **[Yoast's "Ultimate Guide"](https://yoast.com/structured-data-schema-ultimate-guide/)**
+
+### Sources
 * **Reference - Local Business** - <http://linter.structured-data.org/examples/schema.org/LocalBusiness/>
 * **Reference - Corporate Contacts** - <https://developers.google.com/search/docs/data-types/corporate-contacts>
 * **Reference - Contact point** - <http://linter.structured-data.org/examples/schema.org/ContactPoint/>
-* **Example - Person** - <http://jsonld.com/person/>
-* **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
-* **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
-* **GeoShape info 3** - <http://schema.org/GeoShape>
-* **Schema Tool** - <https://schema.pythonanywhere.com> [About this tool](http://polak.es/en/generator.html)
-* <http://razorrank.com/structured-data/homepage-structured-data-with-json-ld/>
-* <https://developers.google.com/gmail/markup/reference/go-to-action>
-* <https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/>
-* <https://yoast.com/structured-data-schema-ultimate-guide/>
+* **[Homepage Structured Data](http://razorrank.com/structured-data/homepage-structured-data-with-json-ld/)**
+* **[Steal our JSON-LD](https://jsonld.com)**
