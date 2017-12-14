@@ -46,6 +46,9 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * **[WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)** - (Includes the [Webpage](http://schema.org/WebPage) schema as well. Why both? See [this description](https://stackoverflow.com/a/29889156/751570).) The [WebSite schema](https://schema.org/WebSite) markup helps generate the Sitelinks Search Box feature for brand SERPs and can help your site name to appear in search results. You must, of course, have an existing site search on your website to enable the Sitelinks Search Box element.<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/WebSite.json)<br><br>
 
+* **[WPHeader.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WPHeader.json)** - Define structured Data for items within a site's header with the [WPHeader schema](http://schema.org/WPHeader). Also see an example of this in use within the snippet [WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FWPHeader.json)<br><br>
+
 * **[VideoObject.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/VideoObject.json)** - A site with embedded or hosted video content can leverage the VideoObject schema. Google primarily displays video rich snippets for YouTube videos, but this will help video rich snippets to appear for your Web pages in Google Video Search. Google Resource Page: [Enabling Rich Snippets for Videos](https://developers.google.com/structured-data/rich-snippets/videos)<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/VideoObject.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FVideoObject.json)<br><br>
 
@@ -69,7 +72,7 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * [ ] [WPAdBlock](http://schema.org/WPAdBlock)
 * [x] ~~WPFooter~~
 * [x] ~~WPSideBar~~
-* [ ] [WPHeader](http://schema.org/WPHeader)
+* [x] ~~WPHeader~~
 * [ ] [CheckoutPage](http://schema.org/CheckoutPage)
 * [ ] [NewsArticle](http://schema.org/NewsArticle)
 * [ ] [TechArticle](http://schema.org/TechArticle)
