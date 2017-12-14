@@ -81,6 +81,11 @@
 		"hasPart": [
 			{
 				"@context": "http://schema.org/",
+				"@type": "WPHeader",
+				"image":"http://placehold.it/512"
+			},
+			{
+				"@context": "http://schema.org/",
 				"@type": "WPSidebar",
 				"cssSelector": "#sidebar",
 				"citation": [
