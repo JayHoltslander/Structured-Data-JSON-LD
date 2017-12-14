@@ -6,8 +6,11 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 
 ## Contents
 
-* **[Article.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Article.json)** - If you’re a publisher website, the [NewsArticle](https://schema.org/NewsArticle) or [BlogPosting](https://schema.org/BlogPosting) schemas are recommended (choose one or the other, depending on your site/content). Leveraging these markups accordingly can help your content to appear in Google News and in-depth articles search suggestions. Google Resource Page: [Enabling Rich Snippets for Articles](https://developers.google.com/structured-data/rich-snippets/articles)<br><br>
+* **[Article.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Article.json)** - If you’re a publisher website, the more specific schema types like [NewsArticle](https://schema.org/NewsArticle) or [BlogPosting](https://schema.org/BlogPosting) are recommended (choose one or the other, depending on your site/content). Leveraging these markups accordingly can help your content to appear in Google News and in-depth articles search suggestions. Google Resource Page: [Enabling Rich Snippets for Articles](https://developers.google.com/structured-data/rich-snippets/articles)<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Article.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FArticle.json)<br><br>
+
+* **[BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BlogPosting.json)** - An even more specific version of Article for a blog post. See the [BlogPosting schema](http://schema.org/BlogPosting) for more info.<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FBlogPosting.json)<br><br>
 
 * **[BreadcrumbList.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BreadcrumbList.json)** - The [BreadcrumbList schema](https://schema.org/BreadcrumbList) allows you to mark up the breadcrumbs on your site to generate breadcrumb rich snippets for your pages in the SERPs.<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/BreadcrumbList.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FBreadcrumbList.json)<br><br>
@@ -77,7 +80,7 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * [ ] [NewsArticle](http://schema.org/NewsArticle)
 * [ ] [TechArticle](http://schema.org/TechArticle)
 * [ ] [Report](http://schema.org/Report)
-* [ ] [SocialMediaPosting](http://schema.org/SocialMediaPosting)
+* [x] ~~BlogPosting~~
 * [ ] [GeoShape](http://schema.org/GeoShape)
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
