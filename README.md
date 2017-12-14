@@ -96,6 +96,7 @@ Wordpress users can use the awesome [Structured-Data-Test-Button Plugin](https:/
 
 ### Articles
 * **REALLY good instructions** - <https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/>
+* **[Using Google Tag Manager to dynamically generate Schema.org JSON-LD Tags](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags)**
 * **[5 Common schema problems and what to do about them](https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/)**
 * **[Implement JSON-LD within the Wordpress Divi theme](http://ahmedkaludi.com/structured-data-divi-theme/)**
 * **[Structured Data Actions in email](https://developers.google.com/gmail/markup/reference/go-to-action)**
