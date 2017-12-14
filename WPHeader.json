@@ -1,0 +1,13 @@
+<script type='application/ld+json'>
+{
+	"@context": "http://schema.org/",
+	"@type": "WPHeader",
+	"headline": "headline-string",
+    "cssSelector": "#header",
+	"potentialAction": {
+		"@type": "Action",
+        "name": "Contact",
+		"target": "http://google.ca/"
+	}
+}
+</script>
