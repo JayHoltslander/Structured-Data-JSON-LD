@@ -1,13 +1,52 @@
 <script type='application/ld+json'>
-{
-	"@context": "http://schema.org/",
-	"@type": "WPHeader",
-	"headline": "headline-string",
-    "cssSelector": "#header",
-	"potentialAction": {
-		"@type": "Action",
-        "name": "Contact",
-		"target": "http://google.ca/"
+	{
+		"@context": "http://schema.org/",
+		"@type": "WPHeader",
+		"headline": "headline-string",
+		"@id":"#header",
+		"cssSelector": "#header",
+		"potentialAction": [
+			{
+				"@type": "Action",
+				"name": "Login",
+				"target": "http://domain.com/login"
+			},
+			{
+				"@type": "Action",
+				"name": "Sign up",
+				"target": "http://domain.com/signup"
+			}
+		],
+		"@graph": 
+		[
+			{
+				"@context": "https://schema.org",
+				"@type":"SiteNavigationElement",
+				"@id":"#header",
+				"name": "Home",
+				"url": "https://www.example.com/"
+			},
+			{
+				"@context": "https://schema.org",
+				"@type":"SiteNavigationElement",
+				"@id":"#header",
+				"name": "Products",
+				"url": "https://www.example.com/products"
+			},
+			{
+				"@context": "https://schema.org",
+				"@type":"SiteNavigationElement",
+				"@id":"#header",
+				"name": "About",
+				"url": "https://www.example.com/about"
+			},
+			{
+				"@context": "https://schema.org",
+				"@type":"SiteNavigationElement",
+				"@id":"#header",
+				"name": "Contact",
+				"url": "https://www.example.com/contact"
+			}
+		]
 	}
-}
 </script>
