@@ -46,7 +46,13 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * **[SpeakableSpecification](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SpeakableSpecification.json)** - For Voice search a SpeakableSpecification indicates via css selector(s) sections of a document that are highlighted as particularly speakable. See [this article](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Fwww.effektiv.com%2Fready-for-voice-search-strukturierte-daten-nach-schema-org-verfuegbar-4464.html) for more info.<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSpeakableSpecification.json)<br><br>
 
-* **[WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)** - (Includes the [Webpage](http://schema.org/WebPage) schema as well. Why both? See [this description](https://stackoverflow.com/a/29889156/751570).) The [WebSite schema](https://schema.org/WebSite) markup helps generate the Sitelinks Search Box feature for brand SERPs and can help your site name to appear in search results. You must, of course, have an existing site search on your website to enable the Sitelinks Search Box element.<br><br>
+* **[WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)** - The [WebSite schema](https://schema.org/WebSite) markup helps generate the Sitelinks Search Box feature for brand SERPs and can help your site name to appear in search results. You must, of course, have an existing site search on your website to enable the Sitelinks Search Box element.<br>
+Includes:
+  * the [Webpage](http://schema.org/WebPage) schema. Why both? See [this description](https://stackoverflow.com/a/29889156/751570).)
+  * WPHeader
+  * WPSidebar
+  * WPFooter
+<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/WebSite.json)<br><br>
 
 * **[WPHeader.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WPHeader.json)** - Define structured Data for items within a site's header with the [WPHeader schema](http://schema.org/WPHeader). Includes SiteNavigationElements within! Also see an example of this in use within the snippet [WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)<br><br>
