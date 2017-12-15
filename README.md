@@ -73,14 +73,16 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 * [ ] [SiteNavigationElement](http://schema.org/SiteNavigationElement)
 * [ ] [Table](http://schema.org/Table)
 * [ ] [WPAdBlock](http://schema.org/WPAdBlock)
-* [x] ~~WPFooter~~
-* [x] ~~WPSideBar~~
-* [x] ~~WPHeader~~
+* [x] ~~Website~~
+  * [x] ~~WPFooter~~
+  * [x] ~~WPSideBar~~
+  * [x] ~~WPHeader~~
 * [ ] [CheckoutPage](http://schema.org/CheckoutPage)
-* [ ] [NewsArticle](http://schema.org/NewsArticle)
-* [ ] [TechArticle](http://schema.org/TechArticle)
+* [x] ~~Article~~
+  * [ ] [NewsArticle](http://schema.org/NewsArticle)
+  * [x] ~~BlogPosting~~
+  * [ ] [TechArticle](http://schema.org/TechArticle)
 * [ ] [Report](http://schema.org/Report)
-* [x] ~~BlogPosting~~
 * [ ] [GeoShape](http://schema.org/GeoShape)
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
