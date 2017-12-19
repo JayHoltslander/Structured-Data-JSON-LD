@@ -1,0 +1,10 @@
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"AggregateRating",
+  "itemReviewed": "#TheBusiness",
+  "ratingValue":"4.9",
+  "bestRating":"5",
+  "reviewCount":"20"
+}
+</script>
