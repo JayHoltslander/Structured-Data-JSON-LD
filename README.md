@@ -64,6 +64,9 @@ Includes:
 * **[ViewAction](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ViewAction.json)** - Indicates where something should be viewed. One of the most common implementations is in Google App indexing, where it enables a URL from a website indexed in search results, to be opened inside the corresponding App (if installed in the user's device).<br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ViewAction.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FViewAction.json)<br>
 
+## Tips & Tricks
+You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) by defining and referencing their ``@id`` (These are called "Node identifiers") Learn more about them [here](https://webmasters.stackexchange.com/a/98578/77742).
+
 ## Installation
 **A.)** Use [Google Tag Manager](https://www.google.com/analytics/tag-manager/) to insert the code with the "Custom HTML" tag. (See screenshot below.)
   * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
