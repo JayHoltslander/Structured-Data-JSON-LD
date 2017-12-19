@@ -2,6 +2,7 @@
 {
 	"@context": "http://www.schema.org",
 	"@type": ["Organization", "LocalBusiness","Notary"],
+	"@id": "#TheBusiness",
 	"image": "http://placehold.it/512",
 	"name": "Notary Public Inc.",
 	"legalName" : "Notary Public Inc.",
@@ -117,7 +118,8 @@
 			"@type":"AggregateRating",
 			"ratingValue":"9.3",
 			"bestRating":"10",
-			"reviewCount":"719"
+			"reviewCount":"719",
+			"itemReviewed": "#TheBusiness"
 	},
 	"potentialAction": {
 		"@type": "OrderAction",
