@@ -14,6 +14,13 @@
 	"address": "1234 Street",
 	"telephone": "6045554321",
 	"priceRange": "$$$",
+	"contactPoint": [
+		{
+			"@type": "ContactPoint",
+			"telephone": "+1-401-555-1212",
+			"contactType": "customer service"
+		}
+	],
 	"mainEntityOfPage": {
 		"@type": "WebPage",
 		"@id": "https://lawfirm.com/"
