@@ -18,7 +18,7 @@ Structured Data is hard. Conflicting info. Old outdated information. Poor docume
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/BreadcrumbList.json)<br><br>
 
-* **[Course.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BreadcrumbList.json)** - The [Course schema](https://schema.org/Course) allows you to mark up courses on your site to generate rich snippets for your courses in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/course).
+* **[Course.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Course.json)** - The [Course schema](https://schema.org/Course) allows you to mark up courses on your site to generate rich snippets for your courses in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/course).
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FCourse.json)<br><br>
 
