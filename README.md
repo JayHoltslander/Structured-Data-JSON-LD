@@ -46,6 +46,11 @@ A detailed example of a complex LocalBusiness customized for a Notary. Demonstra
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-3.json)<br><br>
 
+### [LocalBusiness-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-4.json)
+A detailed example of a complex LocalBusiness customized for an online store with no physical location. Demonstrates combined @types (LocalBusiness/Organization/Store)
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-4.json)<br><br>
+
 ### [Person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)
 My personal structured data snippet for "Person" in JSON-LD format.
 <br><br>
