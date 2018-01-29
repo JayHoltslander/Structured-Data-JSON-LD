@@ -10,13 +10,13 @@
 	"name": "Fox & Fancy",
 	"logo": "https://foxandfancy.com/wp-content/uploads/2015/08/logo2.png",
 	"url": "https://foxandfancy.com",
-    "currenciesAccepted": "CAD",
-    "paymentAccepted": "Credit card, PayPal",
+	"currenciesAccepted": "CAD",
+	"paymentAccepted": "Credit card, PayPal",
 	"priceRange": "$",
 	"openingHours": "Mo,Tu,We,Th,Fr 10:00-17:00",
 	"image": "https://foxandfancy.com/opengraph/fox-and-fancy-logo-640x480.jpg",
 	"telephone": "6043656105",
-    "hasMap": "https://www.google.ca/maps/place/Fox+%26+Fancy/@28.0307668,174.7479788,3z/data=!3m1!4b1!4m5!3m4!1s0x548673e8d4500753:0xe941d7c00b70bca8!8m2!3d53.2843251!4d-120.1896504",
+	"hasMap": "https://www.google.ca/maps/place/Fox+%26+Fancy/@28.0307668,174.7479788,3z/data=!3m1!4b1!4m5!3m4!1s0x548673e8d4500753:0xe941d7c00b70bca8!8m2!3d53.2843251!4d-120.1896504",
 	"contactPoint": [
 		{
 			"@type": "ContactPoint",
