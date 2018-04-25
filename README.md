@@ -171,6 +171,9 @@ If you found this saved you time feel free to make a donation.
 * **[Structured Data Actions in email](https://developers.google.com/gmail/markup/reference/go-to-action)**
 * **[Yoast's "Ultimate Guide"](https://yoast.com/structured-data-schema-ultimate-guide/)**
 
+### Discussions
+* **[Structured data markup for multi-location businesses](https://productforums.google.com/forum/#!topic/webmasters/RNTOPTweJZk)**
+
 ### Sources
 * **Reference - Local Business** - <http://linter.structured-data.org/examples/schema.org/LocalBusiness/>
 * **Reference - Corporate Contacts** - <https://developers.google.com/search/docs/data-types/corporate-contacts>
