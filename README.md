@@ -11,75 +11,96 @@ If you’re a publisher website, the more specific schema types like [NewsArticl
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Article.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FArticle.json)<br><br>
 
+
 ### [BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BlogPosting.json)
 An even more specific version of Article for a blog post. See the [BlogPosting schema](http://schema.org/BlogPosting) for more info.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FBlogPosting.json)<br><br>
+
 
 ### [BreadcrumbList.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BreadcrumbList.json)
 The [BreadcrumbList schema](https://schema.org/BreadcrumbList) allows you to mark up the breadcrumbs on your site to generate breadcrumb rich snippets for your pages in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/breadcrumb).
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/BreadcrumbList.json)<br><br>
 
+
 ### [Course.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Course.json)
 The [Course schema](https://schema.org/Course) allows you to mark up courses on your site to generate rich snippets for your courses in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/course).
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FCourse.json)<br><br>
+
+
+### [Dataset.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Dataset.json)
+The [Dataset schema](https://schema.org/Dataset) is for a body of structured information describing some topic(s) of interest. It should use the sameAs property to link to the canonical page.  [Learn more](https://developers.google.com/search/docs/data-types/dataset).
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)<br><br>
+
 
 ### [JobPosting.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/JobPosting.json)
 Adding structured data makes your job postings eligible to appear in a special user experience in Google Search results leading to increased chances of discovery and conversion. Your postings are eligible to be displayed more prominently in the dedicated Job Search UI, featuring your logo, reviews, ratings, and job details. The new user experience enables job seekers to filter by various criteria like location or job title, meaning you’re more likely to attract applicants who are looking exactly for that job. [Learn more](https://developers.google.com/search/docs/data-types/job-posting).
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool/u/0/?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/JobPosting.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FJobPosting.json)<br><br>
 
+
 ### [LocalBusiness.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness.json)
 An example of a LocalBusiness with multiple locations defined. Each location having it's own defined service areas.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness.json)<br><br>
+
 
 ### [LocalBusiness-2.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-2.json)
 An example of a LocalBusiness customized for a law firm. Demonstrates combined @types (LocalBusiness/Organization/LegalService) and [Corporate Contact](https://developers.google.com/search/docs/data-types/corporate-contact) useage.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-2.json)<br><br>
 
+
 ### [LocalBusiness-3.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-3.json)
 A detailed example of a complex LocalBusiness customized for a Notary. Demonstrates combined @types (LocalBusiness/Organization/Notary) and [Corporate Contact](https://developers.google.com/search/docs/data-types/corporate-contact) useage.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-3.json)<br><br>
+
 
 ### [LocalBusiness-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-4.json)
 An example of a LocalBusiness customized for an online store with no physical location. Demonstrates combined @types (LocalBusiness/Organization/Store)
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-4.json)<br><br>
 
+
 ### [Person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)
 My personal structured data snippet for "Person" in JSON-LD format.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Person.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FPerson.json)<br><br>
+
 
 ### [Question-w-Answers.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Question-w-Answers.json)
 An example of some markup that results in Rich Snippets for Questions as observed in the wild being used on [Stack Exchange websites](https://stackexchange.com/sites). [SERP Screenshot](http://cdn.skunkworks.ca.s3.amazonaws.com/temp-screenshots/Screen_Shot_2017-12-07_at_11.44.40_AM.png) This example includes additional Schema types for "Answer" and "QAPage" which do not seem to be required but complement each other.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FQuestion-w-Answers.json)<br><br>
 
+
 ### [Service.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Service.json)
 A collection of services that a LocalBusiness may provide with per/service ratings.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Service.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FService.json)<br><br>
+
 
 ### [ServiceArea](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ServiceArea.json)
 How to define a service area for a local business.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FServiceArea.json)<br><br>
 
+
 ### [SiteNavigationElement.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SiteNavigationElement.json)
 The [SiteNavigationElement schema](http://schema.org/SiteNavigationElement) can help increase search engines’ understanding of your site structure and navigation and can be used to influence organic sitelinks. (See also WPHeader on this page for an example of usage within a Navbar!)
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/SiteNavigationElement.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSiteNavigationElement.json)<br><br>
 
+
 ### [SpeakableSpecification](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SpeakableSpecification.json)
 For Voice search a SpeakableSpecification indicates via css selector(s) sections of a document that are highlighted as particularly speakable. See [this article](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Fwww.effektiv.com%2Fready-for-voice-search-strukturierte-daten-nach-schema-org-verfuegbar-4464.html) for more info.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSpeakableSpecification.json)<br><br>
+
 
 ### [WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)
 The [WebSite schema](https://schema.org/WebSite) markup helps generate the Sitelinks Search Box feature for brand SERPs and can help your site name to appear in search results. You must, of course, have an existing site search on your website to enable the Sitelinks Search Box element.<br>
@@ -91,15 +112,18 @@ Includes:
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/WebSite.json)<br><br>
 
+
 ### [WPHeader.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WPHeader.json)
 ("Webpage Header" not "Wordpress Header") Define structured Data for items within a site's header with the [WPHeader schema](http://schema.org/WPHeader). Includes SiteNavigationElements within! Also see an example of this in use within the snippet [WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FWPHeader.json)<br><br>
 
+
 ### [VideoObject.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/VideoObject.json)
 A site with embedded or hosted video content can leverage the VideoObject schema. Google primarily displays video rich snippets for YouTube videos, but this will help video rich snippets to appear for your Web pages in Google Video Search. Google Resource Page: [Enabling Rich Snippets for Videos](https://developers.google.com/structured-data/rich-snippets/videos)
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/VideoObject.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FVideoObject.json)<br><br>
+
 
 ### [ViewAction](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ViewAction.json)
 Indicates where something should be viewed. One of the most common implementations is in Google App indexing, where it enables a URL from a website indexed in search results, to be opened inside the corresponding App (if installed in the user's device).
@@ -138,6 +162,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 * [ ] [Report](http://schema.org/Report)
 * [x] ~~Course~~
   * [ ] [List of Courses](https://developers.google.com/search/docs/data-types/course)
+* [x] [Dataset](http://schema.org/Dataset)
 * [ ] [GeoShape](http://schema.org/GeoShape)
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
