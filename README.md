@@ -136,7 +136,7 @@ Indicates where something should be viewed. One of the most common implementatio
 You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) by defining and referencing their ``@id`` (These are called "Node identifiers") Learn more about them [here](https://webmasters.stackexchange.com/a/98578/77742).
 
 ## Installation
-**A.)** Use [Google Tag Manager](https://www.google.com/analytics/tag-manager/) to insert the code with the "Custom HTML" tag. (See screenshot below.)
+**A.)** Use [Google Tag Manager](https://www.google.com/analytics/tag-manager/) to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See [this article](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags) for more information.
   * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
   * [Adding JSON-LD structured data with Google Tag Manager](https://yoast.com/structured-data-google-tag-manager/)
 
