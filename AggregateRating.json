@@ -8,7 +8,8 @@
   "reviewCount":"20",
   "author": {
   	"@type":"Organization",
-  	"name":"Google"
+  	"name":"Google",
+  	"url":"https://maps.google.com/?cid=1537744542674497882"
   }
 }
 </script>
