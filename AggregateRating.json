@@ -2,9 +2,13 @@
 {
   "@context":"http://schema.org/",
   "@type":"AggregateRating",
-  "itemReviewed": "#TheBusiness",
+  "itemReviewed": "#organization",
   "ratingValue":"4.9",
   "bestRating":"5",
-  "reviewCount":"20"
+  "reviewCount":"20",
+  "author": {
+  	"@type":"Organization",
+  	"name":"Google"
+  }
 }
 </script>
