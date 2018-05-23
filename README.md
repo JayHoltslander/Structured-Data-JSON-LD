@@ -254,8 +254,8 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
 
 
-## Support
-If you found this saved you time feel free to make a donation.
+## Say "Thank you"
+If you found this saved you time, or helped you in any way, feel free to buy me a coffee.
 
 [![](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://www.paypal.me/jayholtslander)
 
