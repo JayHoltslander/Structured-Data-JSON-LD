@@ -1,0 +1,84 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "numberOfItems": "2",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "Recipe",
+        "url": "http://example.com/big_list_of_recipes#strawberry-mango-pie",
+        "name": "Strawberry Mango Pie",
+        "image": "http://example.com/recipes/smm.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Kostis"},
+        "datePublished": "2010-03-03",
+        "description": "Delicious strawberry mango pie.",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "52"
+        },
+        "prepTime": "PT35M",
+        "totalTime": "PT2H",
+        "recipeYield": "12 servings",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "servingSize": "1 bowl",
+          "calories": "519 cal",
+          "fatContent": "28.2 g"
+        },
+        "recipeIngredient": [
+          "1/2 cup sugar",
+          "5 large ripe alphonso mangos",
+          "3 cups washed strawberries, top removed, cut in half",
+          "2 frozen pie crusts"
+        ],
+        "recipeInstructions": "\n1. Peel, pit, and cut the mangos into 1/2\" squares.\n2. Mix mangos, strawberries, sugar, and lemon juice in a bowl.\n3. Pour mix into pie crust, and invert the second pie crust over the first.\n4. Bake in preheated 350° oven for 40 minutes, or until pie crust turns brown."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "Recipe",
+        "url": "http://example.com/big_list_of_recipes#mac-and-cheese",
+        "name": "Classic Mac and Cheese",
+        "image": "http://example.com/recipes/mac-and-cheese.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Daphne"},
+        "datePublished": "2017-06-03",
+        "description": "Classic baked macaroni recipe.",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "reviewCount": "66"
+        },
+        "prepTime": "PT25M",
+        "totalTime": "PT1.5H",
+        "recipeYield": "9 servings",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "servingSize": "1 square",
+          "calories": "500 cal",
+          "fatContent": "40.2 g"
+        },
+        "recipeIngredient": [
+          "1 lb dried elbow macaroni",
+          "1 teaspoon mustard powder",
+          "5 tablespoons garlic powder",
+          "1 cup milk",
+          "1 cup herbed bread crumbs",
+          "16 oz shredded cheddar cheese",
+          "Salt and pepper to taste"
+        ],
+        "recipeInstructions": "1. Boil and strain the macaroni. Be sure it is al-dente, or even a bit hard.\n2. Spray ceramic 9\" square pan with oil.\n3. In a large ceramic or glass bowl, mix shredded cheese, garlic powder, mustard powder, and milk. Put in microwave and melt to a gooey mass.\n4. Mix macaroni and cheese in bowl and pour into pan. Add 1/2 cup bread crumbs. Pour mix into pan and dot the top with butter and additional 1/2 cup of crumbs.\n5. Bake uncovered at 350° for 40 minutes, or brown on top."
+      }
+    }
+  ]
+}
+</script>
