@@ -159,7 +159,13 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
   * [x] ~~WPFooter~~
   * [x] ~~WPSideBar~~
   * [x] ~~WPHeader~~
-* [ ] [CheckoutPage](http://schema.org/CheckoutPage)
+  * [ ] [CheckoutPage](http://schema.org/CheckoutPage)
+  * [ ] [ContactPage](http://schema.org/ContactPage)
+  * [ ] [AboutPage](http://schema.org/AboutPage)
+  * [ ] [QAPage](http://schema.org/QAPage)
+  * [ ] [CollectionPage](http://schema.org/CollectionPage)
+  * [ ] [ItemPage](http://schema.org/ItemPage)
+  * [ ] [ProfilePage](http://schema.org/ProfilePage)
 * [x] ~~Article~~
   * [ ] [NewsArticle](http://schema.org/NewsArticle)
   * [x] ~~BlogPosting~~
