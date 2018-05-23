@@ -2,14 +2,13 @@
 {
   "@context":"http://schema.org/",
   "@type":"AggregateRating",
-  "itemReviewed": "#organization",
+  "itemReviewed": "#productx",
   "ratingValue":"4.9",
   "bestRating":"5",
   "reviewCount":"20",
   "author": {
   	"@type":"Organization",
-  	"name":"Google",
-  	"url":"https://maps.google.com/?cid=1537744542674497882"
+    "@id": "#organization"
   }
 }
 </script>
