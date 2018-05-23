@@ -8,7 +8,7 @@
   "reviewCount":"20",
   "author": {
   	"@type":"Organization",
-    "@id": "#organization"
+  	"@id": "#organization"
   }
 }
 </script>
