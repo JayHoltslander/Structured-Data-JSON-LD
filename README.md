@@ -227,28 +227,28 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 ![](http://i.imgur.com/qVBR2kB.jpg)
 
 ## To-do
-* [ ] [SiteNavigationElement](http://schema.org/SiteNavigationElement)
+* [x] ~~[SiteNavigationElement](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#sitenavigationelementjson)~~
 * [ ] [Table](http://schema.org/Table)
 * [ ] [WPAdBlock](http://schema.org/WPAdBlock)
-* [x] ~~Website~~
-  * [x] ~~WPFooter~~
-  * [x] ~~WPSideBar~~
-  * [x] ~~WPHeader~~
+* [x] ~~[Website](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
+  * [x] ~~[WPFooter](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
+  * [x] ~~[WPSideBar](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
+  * [x] ~~[WPHeader](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#wpheaderjson)~~
   * [ ] [CheckoutPage](http://schema.org/CheckoutPage)
   * [ ] [ContactPage](http://schema.org/ContactPage)
   * [ ] [AboutPage](http://schema.org/AboutPage)
-  * [x] ~~[QAPage](http://schema.org/QAPage)~~
+  * [x] ~~[QAPage](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#question-w-answersjson)~~
   * [ ] [CollectionPage](http://schema.org/CollectionPage)
   * [ ] [ItemPage](http://schema.org/ItemPage)
   * [ ] [ProfilePage](http://schema.org/ProfilePage)
-* [x] ~~Article~~
+* [x] ~~[Article](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#articlejson)~~
   * [ ] [NewsArticle](http://schema.org/NewsArticle)
-  * [x] ~~BlogPosting~~
+  * [x] ~~[BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#blogposting)~~
   * [ ] [TechArticle](http://schema.org/TechArticle)
 * [ ] [Report](http://schema.org/Report)
-* [x] ~~Course~~
+* [x] ~~[Course](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#coursejson)~~
   * [ ] [List of Courses](https://developers.google.com/search/docs/data-types/course)
-* [x] ~~Dataset~~
+* [x] ~~[Dataset](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#datasetjson)~~
 * [ ] [GeoShape](http://schema.org/GeoShape)
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
