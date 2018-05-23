@@ -8,7 +8,8 @@
 			"@context": "http://schema.org/",
 			"@type": "WebPageElement",
 			"cssSelector": ".body-content"
-		}
+		},
+		"primaryImageOfPage": "https://placehold.it/640x480",
 	},
 	{
 		"@context": "http://schema.org",
