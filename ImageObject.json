@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+{
+	"@context":"http://schema.org/",
+	"@type": "ImageObject",
+	"@id": "#image01",
+	"url": "http://placehold.it/2560x1080",
+	"width": "1200",
+	"height": "348",
+	"caption": "Caption for the image",
+	"thumbnail": "http://placehold.it/128",
+	"representativeOfPage": "/",
+	"exifData": [
+		{
+			"@type": "PropertyValue",
+			"name": "Exposure Time",
+			"value": "1/659 sec."
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "FNumber",
+			"value": "f/4.0"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "MaxApertureValue",
+			"value": "2.00"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Metering Mode",
+			"value": "Pattern"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Flash",
+			"value": "Flash did not fire."
+		}
+	]
+}
+</script>
