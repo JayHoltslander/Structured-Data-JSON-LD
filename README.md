@@ -41,6 +41,12 @@ The [Dataset schema](https://schema.org/Dataset) is for a body of structured inf
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)<br><br>
 
 
+### [ImageObject.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ImageObject.json)
+An example of the [ImageObject](http://schema.org/ImageObject) schema.
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FImageObject.json)<br><br>
+
+
 ### [JobPosting.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/JobPosting.json)
 Adding structured data makes your job postings eligible to appear in a special user experience in Google Search results leading to increased chances of discovery and conversion. Your postings are eligible to be displayed more prominently in the dedicated Job Search UI, featuring your logo, reviews, ratings, and job details. The new user experience enables job seekers to filter by various criteria like location or job title, meaning you’re more likely to attract applicants who are looking exactly for that job. [Learn more](https://developers.google.com/search/docs/data-types/job-posting).
 <br><br>
