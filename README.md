@@ -48,14 +48,13 @@ An example of the [ImageObject](http://schema.org/ImageObject) schema. Demonstra
 
 
 ### [ItemList-1.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-1.json)
-The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices. This example is for a summary page which has a short description of each item in the list, and each item points to a separate details page that is focused entirely on one item. The details page is where the more detailed Structured Data on the item would be located. See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#summary-page--multiple-full-details-pages
+The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices ([Screenshot](https://developers.google.com/search/docs/guides/images/search-features03-HostCarousel.png)). This example is for a summary page which has a short description of each item in the list, and each item points to a separate details page that is focused entirely on one item. The details page is where the more detailed Structured Data on the item would be located. See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#summary-page--multiple-full-details-pages
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-1.json)<br><br>
 
 
 ### [ItemList-2.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-2.json)
-The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices. 
-This example is for a single, all-in-one-page list hosts all list information, including full text of each item: for example, a gallery of recipes for various kinds of muffins, all contained on one page.
+The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices ([Screenshot](https://developers.google.com/search/docs/guides/images/search-features03-HostCarousel.png)). This example is for a single, all-in-one-page list hosts all list information, including full text of each item: for example, a gallery of recipes for various kinds of muffins, all contained on one page.
 See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#single-all-in-one-page-list
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-2.json)<br><br>
