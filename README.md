@@ -228,28 +228,28 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 
 ## To-do
 * [x] ~~[SiteNavigationElement](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#sitenavigationelementjson)~~
-* [ ] [Table](http://schema.org/Table) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22Table%22/))
-* [ ] [WPAdBlock](http://schema.org/WPAdBlock) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22WPAdBlock%22/))
+* [ ] [Table](http://schema.org/Table) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22Table%5C%22%22/))
+* [ ] [WPAdBlock](http://schema.org/WPAdBlock) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22AdBlock%5C%22%22/))
 * [x] ~~[Website](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
   * [x] ~~[WPFooter](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
   * [x] ~~[WPSideBar](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#websitejson)~~
   * [x] ~~[WPHeader](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#wpheaderjson)~~
-  * [ ] [CheckoutPage](http://schema.org/CheckoutPage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22CheckoutPage%22/))
-  * [ ] [ContactPage](http://schema.org/ContactPage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22ContactPage%22/))
-  * [ ] [AboutPage](http://schema.org/AboutPage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22AboutPage%22/))
+  * [ ] [CheckoutPage](http://schema.org/CheckoutPage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22CheckoutPage%5C%22%22/))
+  * [ ] [ContactPage](http://schema.org/ContactPage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22ContactPage%5C%22%22/))
+  * [ ] [AboutPage](http://schema.org/AboutPage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22AboutPage%5C%22%22/))
   * [x] ~~[QAPage](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#question-w-answersjson)~~
-  * [ ] [CollectionPage](http://schema.org/CollectionPage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22CollectionPage%22/))
-  * [ ] [ItemPage](http://schema.org/ItemPage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22ItemPage%22/))
-  * [ ] [ProfilePage](http://schema.org/ProfilePage) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22ProfilePage%22/))
+  * [ ] [CollectionPage](http://schema.org/CollectionPage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22CollectionPage%5C%22%22/))
+  * [ ] [ItemPage](http://schema.org/ItemPage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22ItemPage%5C%22%22/))
+  * [ ] [ProfilePage](http://schema.org/ProfilePage) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22ProfilePage%5C%22%22/))
 * [x] ~~[Article](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#articlejson)~~
-  * [ ] [NewsArticle](http://schema.org/NewsArticle) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22NewsArticle%22/))
+  * [ ] [NewsArticle](http://schema.org/NewsArticle) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22NewsArticle%5C%22%22/))
   * [x] ~~[BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#blogposting)~~
-  * [ ] [TechArticle](http://schema.org/TechArticle) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22TechArticle%22/))
-* [ ] [Report](http://schema.org/Report) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22Report%22/))
+  * [ ] [TechArticle](http://schema.org/TechArticle) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22TechArticle%5C%22%22/))
+* [ ] [Report](http://schema.org/Report) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22Report%5C%22%22/))
 * [x] ~~[Course](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#coursejson)~~
   * [ ] [List of Courses](https://developers.google.com/search/docs/data-types/course)
 * [x] ~~[Dataset](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#datasetjson)~~
-* [ ] [GeoShape](http://schema.org/GeoShape) ([Examples](https://publicwww.com/websites/%22%40type%22%3A%22GeoShape%22/))
+* [ ] [GeoShape](http://schema.org/GeoShape) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22GeoShape%5C%22%22/))
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
 
