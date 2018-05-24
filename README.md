@@ -259,6 +259,8 @@ If you found this saved you time, or helped you in any way, feel free to buy me 
 
 [![](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://www.paypal.me/jayholtslander)
 
+![](https://embed-cdn.gettyimages.com/photos/starbucks-coffee-cup-is-seen-inside-a-starbucks-coffee-shop-in-dc-picture-id947784930?k=6&m=947784930&s=594x594&w=0&h=YpPViPiGwIX_XG31_jeYeAxNoOiIIKFFkzAW5imQIik=&Expires=1527210000&Key-Pair-Id=APKAJZZHJ4LGWQENK3OQ&Signature=TRLhtvsllYXJTMQFRRMW9HjR6MVDrmxD0qvPnxm12ymn9poFgq5XVkXsJvGLK5x-XXA7woX5~atqea0LLVnS1X8lLOvoGBlq6Uwa3nBJ0Qgvip9LAN6iBiQc1nN8v1GEBkjC-0Lwg3hFXEvX4gtHrqK1B1ZZUCFC1bl~z-6My2Pz2nIggkVvdp-d~FaA15nk0qAW5jMpJ3g1QjkrE-1lwLI4krCbce0MZyGXOyg96y31BY7ObiUN~DRPLjU6UQa~sVd6UOP9QrMfqbt1ArTUogDOGGHh68Qu2wTS2UpIFgasQbWi-giyqgXaWvlHYrnF1DN96SVl-VOWQUucJ1XKzw__)
+
 ## Testing
   ### The code
   * [Structured-Data-Test-Button Wordpress Plugin](https://en-ca.wordpress.org/plugins/structured-data-test-button/)
