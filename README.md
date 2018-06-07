@@ -223,7 +223,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 
 **B.)** Hand code it in and manually keep it up to date. (Ugh)
 
-**C.)** Use a Wordpress plugin of some type.
+**C.)** Use a [Wordpress plugin of some type](https://wpschema.com/schema-types/).
 
 ![](http://i.imgur.com/qVBR2kB.jpg)
 
