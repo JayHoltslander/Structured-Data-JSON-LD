@@ -4,6 +4,34 @@
 
 Structured Data is hard when you're starting out. Conflicting info. Old outdated information. Poor documentation. I've spent a significant amout of time trying to master it. Now you can benefit from all my hard work and testing. Everything here works properly or it wouldn't be here. Many of these will provide the [fancy Google Search Enhancements](https://developers.google.com/search/docs/guides/search-gallery) you desire and ensure your content types are marked up properly.
 
+## Installation
+<details>
+<summary><strong>A.) Hand code it in</strong> (Learn more)</summary>
+<p></p>
+<p>(Ugh)</p>
+<p></p>
+</details>
+
+
+<details>
+<summary><strong>B.) Use Google Tag Manager</strong> (Learn more)</summary>
+<p></p>
+ Use <a href="https://www.google.com/analytics/tag-manager/">Google Tag Manager</a> to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See [this article](https://presencemedia.io/schema-markup-structured-data-2018-guide/#dynamicallyaddschema) and [this older Moz article](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags) for more information on how to do that.
+  * [How to install Google Tag Manager](https://www.google.com/search?rls=en&q=how+to+install+Google+Tag+Manager&ie=UTF-8&oe=UTF-8)
+  * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
+  * [Adding JSON-LD structured data with Google Tag Manager](https://yoast.com/structured-data-google-tag-manager/)
+ <img src="http://i.imgur.com/qVBR2kB.jpg">
+<p></p>
+</details>
+
+
+<details>
+<summary><strong>C.) Use a Wordpress plugin</strong> (Learn more)</summary>
+<p></p>
+<ul><li>https://wpschema.com/schema-types/</li></ul>
+<p></p>
+</details>
+
 ## Contents
 
 ### [AggregateRating.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/AggregateRating.json)
@@ -214,34 +242,6 @@ Indicates where something should be viewed. One of the most common implementatio
 
 ## Tips & Tricks
 You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) by defining and referencing their ``@id`` (These are called "Node identifiers") Learn more about them [here](https://webmasters.stackexchange.com/a/98578/77742).
-
-## Installation
-<details open="">
-<summary><strong>A.) Hand code it in</strong> (Learn more)</summary>
-<p></p>
-<p>(Ugh)</p>
-<p></p>
-</details>
-
-
-<details>
-<summary><strong>B.) Use Google Tag Manager</strong> (Learn more)</summary>
-<p></p>
- Use <a href="https://www.google.com/analytics/tag-manager/">Google Tag Manager</a> to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See [this article](https://presencemedia.io/schema-markup-structured-data-2018-guide/#dynamicallyaddschema) and [this older Moz article](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags) for more information on how to do that.
-  * [How to install Google Tag Manager](https://www.google.com/search?rls=en&q=how+to+install+Google+Tag+Manager&ie=UTF-8&oe=UTF-8)
-  * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
-  * [Adding JSON-LD structured data with Google Tag Manager](https://yoast.com/structured-data-google-tag-manager/)
- <img src="http://i.imgur.com/qVBR2kB.jpg">
-<p></p>
-</details>
-
-
-<details>
-<summary><strong>C.) Use a Wordpress plugin</strong> (Learn more)</summary>
-<p></p>
-<ul><li>https://wpschema.com/schema-types/</li></ul>
-<p></p>
-</details>
 
 ## To-do
 * [x] ~~[SiteNavigationElement](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#sitenavigationelementjson)~~
