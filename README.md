@@ -4,6 +4,9 @@
 
 Structured Data is hard when you're starting out. Conflicting info. Old outdated information. Poor documentation. I've spent a significant amout of time trying to master it. Now you can benefit from all my hard work and testing. Everything here works properly or it wouldn't be here. Many of these will provide the [fancy Google Search Enhancements](https://developers.google.com/search/docs/guides/search-gallery) you desire and ensure your content types are marked up properly.
 
+## News
+Big update coming very soon to this repo. Google's Structured Data Testing Tool has stopped seeing Structured Data thats been inserted via Google Tag Manager. A new way to insert it via Tag Manager has been found by [Simo Ahava](https://twitter.com/SimoAhava) and the snippets here will be updated to reflect this new method. ([Hint](https://twitter.com/SimoAhava/status/1001397355403468802))
+
 ## Installation
 <details>
 <summary><strong>A.) Hand code it in</strong> (Learn more)</summary>
