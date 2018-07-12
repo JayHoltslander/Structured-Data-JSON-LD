@@ -16,12 +16,15 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 <details>
 <summary><strong>B.) Use Google Tag Manager</strong> (Learn more)</summary>
 <p></p>
- Use <a href="https://www.google.com/analytics/tag-manager/">Google Tag Manager</a> to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See [this article](https://presencemedia.io/schema-markup-structured-data-2018-guide/#dynamicallyaddschema) and [this older Moz article](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags) for more information on how to do that.
-  * [How to install Google Tag Manager](https://www.google.com/search?rls=en&q=how+to+install+Google+Tag+Manager&ie=UTF-8&oe=UTF-8)
-  * [Add schema markup site using Google Tag Manager](https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516)
-  * [Adding JSON-LD structured data with Google Tag Manager](https://yoast.com/structured-data-google-tag-manager/)
+ <p>Use <a href="https://www.google.com/analytics/tag-manager/">Google Tag Manager</a> to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See <a href="https://presencemedia.io/schema-markup-structured-data-2018-guide/#dynamicallyaddschema">this article</a> and <a href="https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags">this older Moz article</a> for more information on how to do that.</p>
+ <ul>
+  <li><a href="https://www.google.com/search?rls=en&q=how+to+install+Google+Tag+Manager&ie=UTF-8&oe=UTF-8">How to install Google Tag Manager</a></li>
+  <li><a href="https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516">Add schema markup site using Google Tag Manager</a></li>
+  <li><a href="https://yoast.com/structured-data-google-tag-manager/">Adding JSON-LD structured data with Google Tag Manager</a></li>
+ </ul>
+ <p></p>
  <img src="http://i.imgur.com/qVBR2kB.jpg">
-<p></p>
+ <p></p>
 </details>
 
 
