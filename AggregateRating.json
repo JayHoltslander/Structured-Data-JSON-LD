@@ -1,3 +1,4 @@
+<!-- REGULAR SCRIPT BLOCK VERSION -->
 <script type="application/ld+json">
 {
   "@context":"http://schema.org/",
@@ -11,4 +12,32 @@
   	"@id": "#organization"
   }
 }
+</script>
+
+
+<!-- ============================ OR ============================ -->
+
+
+<!-- GOOGLE TAG MANAGER VERSION -->
+<!-- Credit: https://twitter.com/SimoAhava/status/1001397355403468802 -->
+<script>
+(function() {
+	var jsonData =
+{
+  "@context":"http://schema.org/",
+  "@type":"AggregateRating",
+  "itemReviewed": "#productx",
+  "ratingValue":"4.9",
+  "bestRating":"5",
+  "reviewCount":"20",
+  "author": {
+  	"@type":"Organization",
+  	"@id": "#organization"
+  }
+};
+var el = document.createElement('script');
+el.type = 'application/ld+json';
+el.innerHTML = JSON.stringify(jsonData);
+document.head.appendChild(el);
+})();
 </script>
