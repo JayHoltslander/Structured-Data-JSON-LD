@@ -4,8 +4,10 @@
 
 Structured Data is hard when you're starting out. Conflicting info. Old outdated information. Poor documentation. I've spent a significant amout of time trying to master it. Now you can benefit from all my hard work and testing. Everything here works properly or it wouldn't be here. Many of these will provide the [fancy Google Search Enhancements](https://developers.google.com/search/docs/guides/search-gallery) you desire and ensure your content types are marked up properly.
 
-## News
-Big update coming very soon to this repo. Google's Structured Data Testing Tool has stopped seeing Structured Data thats been inserted via Google Tag Manager. A new way to insert it via Tag Manager has been found by [Simo Ahava](https://twitter.com/SimoAhava) and the snippets here will be updated to reflect this new method. ([Hint](https://twitter.com/SimoAhava/status/1001397355403468802))
+|**News**|
+|:--|
+|Google's Structured Data Testing Tool has stopped seeing Structured Data thats been inserted via Google Tag Manager. This caused a minor little uproar on Twitter when Google's John Mueller tweeted a response of "[I wouldn't rely on a tool like GTM to add Structured Data](https://twitter.com/thisisdelbert/status/1017098840422244352)". Some blogs immediately ~twisted this into~ wrote that Google itself has now declared that GTM should not be used for inserting Structured Data. Which [is ridiculous](https://twitter.com/MattLacuesta/status/1017121141687664640). A new way to insert Structured Data via Google Tag Manager has been found by [Simo Ahava](https://www.simoahava.com/analytics/add-html-elements-page-programmatically/) and this method allows for the testing tool to detect the Structured Data 100% fine.<br><img src="https://media.giphy.com/media/joV1k1sNOT5xC/giphy.gif" width="100%">|
+
 
 ## Installation
 <details>
