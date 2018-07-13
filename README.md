@@ -13,6 +13,7 @@ Big update coming very soon to this repo. Google's Structured Data Testing Tool 
 <p></p>
 <p>(Ugh)</p>
 <p></p>
+ <hr>
 </details>
 
 
@@ -35,6 +36,7 @@ Big update coming very soon to this repo. Google's Structured Data Testing Tool 
 </tr>
 </table>
  <p></p>
+ <hr>
 </details>
 
 
@@ -43,6 +45,7 @@ Big update coming very soon to this repo. Google's Structured Data Testing Tool 
 <p></p>
 <ul><li>https://wpschema.com/schema-types/</li></ul>
 <p></p>
+ <hr>
 </details>
 
 ## Contents
