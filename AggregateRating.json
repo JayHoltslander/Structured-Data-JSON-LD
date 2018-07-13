@@ -1,6 +1,4 @@
-<script>
-(function() {
-	var jsonData = 
+<script type="application/ld+json">
 {
   "@context":"http://schema.org/",
   "@type":"AggregateRating",
@@ -12,10 +10,5 @@
   	"@type":"Organization",
   	"@id": "#organization"
   }
-};
-var el = document.createElement('script');
-el.type = 'application/ld+json';
-el.innerHTML = JSON.stringify(jsonData);
-document.head.appendChild(el);
-})();
+}
 </script>
