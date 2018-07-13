@@ -21,6 +21,28 @@ Big update coming very soon to this repo. Google's Structured Data Testing Tool 
 <summary><strong>B.) Use Google Tag Manager</strong> (Learn more)</summary>
 <p></p>
  <p>Use <a href="https://www.google.com/analytics/tag-manager/">Google Tag Manager</a> to insert the code with the "Custom HTML" tag. (See screenshot below.) Why Tag Manager? Because Tag Manager can dynamically change the Structured Data based on the content of the page! (eg: Blog posts) See <a href="https://presencemedia.io/schema-markup-structured-data-2018-guide/#dynamicallyaddschema">this article</a> and <a href="https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags">this older Moz article</a> for more information on how to do that.</p>
+ 
+ <p><strong>UPDATE:</strong> Google changed something. Now, in order to have the Structured Data Testing tool detect inserted Structured Data properly, it must be inserted programatically. Pasting your desired Structured Data within this snippet below will allow it to be detected properly by the testing tool.</p>
+ 
+ <pre class="rich-diff-level-zero"><span class="pl-c rich-diff-level-one"><span class="pl-c">&lt;!--</span> GOOGLE TAG MANAGER VERSION <span class="pl-c">--&gt;</span></span>
+<span class="pl-c rich-diff-level-one"><span class="pl-c">&lt;!--</span> Credit: https://twitter.com/SimoAhava/status/1001397355403468802 <span class="pl-c">--&gt;</span></span>
+<span class="pl-c rich-diff-level-one"><span class="pl-c">&lt;!--</span> Source: https://github.com/JayHoltslander/Structured-Data-JSON-LD <span class="pl-c">--&gt;</span></span>
+&lt;<span class="pl-ent rich-diff-level-one">script</span>&gt;<span class="pl-s1 rich-diff-level-one"></span>
+<span class="pl-s1 rich-diff-level-one">(<span class="pl-k">function</span>() {</span>
+<span class="pl-s1 rich-diff-level-one">   <span class="pl-k">var</span> jsonData <span class="pl-k">=</span></span>
+<span class="pl-s1 rich-diff-level-one"></span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-c"><span class="pl-c">//</span> PASTE THE JSON THAT YOU WANT TO USE, HERE.</span></span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-c"><span class="pl-c">//</span> Only paste what's within the &lt;script&gt; block.</span></span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-c"><span class="pl-c">//</span> Your pasted content should start with a "{" and end with a "}"</span></span>
+<span class="pl-s1 rich-diff-level-one"></span>
+<span class="pl-s1 rich-diff-level-one">; <span class="pl-k">var</span> el <span class="pl-k">=</span> <span class="pl-c1">document</span>.<span class="pl-c1">createElement</span>(<span class="pl-s"><span class="pl-pds">'</span>script<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-smi">el</span>.<span class="pl-c1">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>application/ld+json<span class="pl-pds">'</span></span>;</span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-smi">el</span>.<span class="pl-smi">innerHTML</span> <span class="pl-k">=</span> <span class="pl-c1">JSON</span>.<span class="pl-c1">stringify</span>(jsonData);</span>
+<span class="pl-s1 rich-diff-level-one"><span class="pl-c1">document</span>.<span class="pl-smi">head</span>.<span class="pl-c1">appendChild</span>(el);</span>
+<span class="pl-s1 rich-diff-level-one">})();</span>
+<span class="pl-s1 rich-diff-level-one"></span><span class="pl-s1 rich-diff-level-one">&lt;</span>/<span class="pl-ent rich-diff-level-one">script</span>&gt;</pre>
+ 
+ <p><strong>See also:</strong></p>
  <ul>
   <li><a href="https://www.google.com/search?rls=en&q=how+to+install+Google+Tag+Manager&ie=UTF-8&oe=UTF-8">How to install Google Tag Manager</a></li>
   <li><a href="https://searchengineland.com/add-schema-markup-site-using-google-tag-manager-272516">Add schema markup site using Google Tag Manager</a></li>
