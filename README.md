@@ -26,7 +26,14 @@ Big update coming very soon to this repo. Google's Structured Data Testing Tool 
   <li><a href="https://yoast.com/structured-data-google-tag-manager/">Adding JSON-LD structured data with Google Tag Manager</a></li>
  </ul>
  <p></p>
- <img src="http://i.imgur.com/qVBR2kB.jpg">
+<table>
+<tr>
+<td><a href="https://camo.githubusercontent.com/460eaed67b255eb426c885e32f8a17bfa180c70c/687474703a2f2f692e696d6775722e636f6d2f71564252326b422e6a7067"><img src="https://camo.githubusercontent.com/460eaed67b255eb426c885e32f8a17bfa180c70c/687474703a2f2f692e696d6775722e636f6d2f71564252326b422e6a7067" width="240"></a></td>
+</tr>
+<tr>
+<td>🔍 <strong>Screenshot</strong></td>
+</tr>
+</table>
  <p></p>
 </details>
 
