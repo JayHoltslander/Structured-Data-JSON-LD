@@ -117,6 +117,14 @@ The [Course schema](https://schema.org/Course) allows you to mark up courses on 
 <br><br>
 
 
+### [FAQPage.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/FAQPage.json)
+The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (obviously) for a FAQ page. [Learn more](https://developers.google.com/search/docs/data-types/faqpage).
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FFAQPage.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22FAQPage%5C%22%22/)
+<br><br>
+
+
 ### [Dataset.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Dataset.json)
 The [Dataset schema](https://schema.org/Dataset) is for a body of structured information describing some topic(s) of interest. It should use the sameAs property to link to the canonical page.  [Learn more](https://developers.google.com/search/docs/data-types/dataset).
 <br><br>
