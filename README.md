@@ -146,6 +146,7 @@ The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (o
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FFAQPage.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22FAQPage%5C%22%22/)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/oRbVZz)
 <br><br>
 
 
