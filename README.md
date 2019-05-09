@@ -253,6 +253,14 @@ An example of some markup that results in Rich Snippets for Questions as observe
 <br><br>
 
 
+### [Recipe.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Recipe.json)
+The [Recipe](http://schema.org/Recipe) schema can result in Rich Snippets for Recipes. [Learn more](https://developers.google.com/search/docs/data-types/recipe).
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FRecipe.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Recipe%5C%22%22/)
+<br><br>
+
+
 ### [Service.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Service.json)
 A collection of services that a LocalBusiness may provide with per/service ratings.
 <br><br>
