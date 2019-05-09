@@ -324,6 +324,12 @@ Indicates where something should be viewed. One of the most common implementatio
 You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) by defining and referencing their ``@id`` (These are called "Node identifiers") Learn more about them [here](https://webmasters.stackexchange.com/a/98578/77742).
 
 ## To-do
+<details>
+<summary>
+<strong>View</strong>
+</summary>
+<p></p>
+
 * [x] ~~[SiteNavigationElement](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#sitenavigationelementjson)~~
 * [ ] [Table](http://schema.org/Table) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22Table%5C%22%22/))
 * [ ] [WPAdBlock](http://schema.org/WPAdBlock) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22AdBlock%5C%22%22/))
@@ -349,14 +355,15 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 * [ ] [GeoShape](http://schema.org/GeoShape) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22GeoShape%5C%22%22/))
   * **GeoShape info 1** - <https://webmasters.stackexchange.com/questions/28916/how-do-i-use-the-http-schema-org-geoshape-itemtype>
   * **GeoShape info 2** - <https://developers.google.com/schemas/reference/types/GeoShape>
+<hr>
+</details>
+
+
 
 
 ## Say "Thank you"
 If you found this saved you time, or helped you in any way, feel free to buy me a coffee.
 
-[![](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://www.paypal.me/jayholtslander)
-
-![](https://embed-cdn.gettyimages.com/photos/starbucks-coffee-cup-is-seen-inside-a-starbucks-coffee-shop-in-dc-picture-id947784930?k=6&m=947784930&s=594x594&w=0&h=YpPViPiGwIX_XG31_jeYeAxNoOiIIKFFkzAW5imQIik=&Expires=1527210000&Key-Pair-Id=APKAJZZHJ4LGWQENK3OQ&Signature=TRLhtvsllYXJTMQFRRMW9HjR6MVDrmxD0qvPnxm12ymn9poFgq5XVkXsJvGLK5x-XXA7woX5~atqea0LLVnS1X8lLOvoGBlq6Uwa3nBJ0Qgvip9LAN6iBiQc1nN8v1GEBkjC-0Lwg3hFXEvX4gtHrqK1B1ZZUCFC1bl~z-6My2Pz2nIggkVvdp-d~FaA15nk0qAW5jMpJ3g1QjkrE-1lwLI4krCbce0MZyGXOyg96y31BY7ObiUN~DRPLjU6UQa~sVd6UOP9QrMfqbt1ArTUogDOGGHh68Qu2wTS2UpIFgasQbWi-giyqgXaWvlHYrnF1DN96SVl-VOWQUucJ1XKzw__)
 
 ## Testing
   ### The code
