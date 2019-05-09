@@ -32,6 +32,7 @@ Google's Structured Data Testing Tool has stopped seeing Structured Data thats b
 <p></p>
 <p>Ugh! This is not easily maintainable at scale.</p>
 <p>Although the Structured Data CAN be placed in the head and work properly, <a href="https://developers.google.com/search/docs/data-types/how-to">Google's examples</a> show it being placed in the body immediately after the opening body tag.</p>
+<p>Their CodeLab <a href="https://codelabs.developers.google.com/codelabs/structured-data/index.html#2" target="_blank">states this</a> as well.</p>
 <p></p>
  <hr>
 </details>
