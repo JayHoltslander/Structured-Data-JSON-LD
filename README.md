@@ -117,6 +117,14 @@ The [Course schema](https://schema.org/Course) allows you to mark up courses on 
 <br><br>
 
 
+### [Dataset.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Dataset.json)
+The [Dataset schema](https://schema.org/Dataset) is for a body of structured information describing some topic(s) of interest. It should use the sameAs property to link to the canonical page.  [Learn more](https://developers.google.com/search/docs/data-types/dataset).
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Dataset%5C%22%22/)
+<br><br>
+
+
 ### [FAQPage.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/FAQPage.json)
 The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (obviously) for a FAQ page. A Frequently Asked Question (FAQ) page contains a list of questions and answers pertaining to a particular topic. Properly marked up FAQ pages may be eligible to have a rich result on Search and Markup Action for the Google Assistant, which can help your site reach the right users. [Learn more](https://developers.google.com/search/docs/data-types/faqpage).
 <br><br>
@@ -125,11 +133,11 @@ The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (o
 <br><br>
 
 
-### [Dataset.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Dataset.json)
-The [Dataset schema](https://schema.org/Dataset) is for a body of structured information describing some topic(s) of interest. It should use the sameAs property to link to the canonical page.  [Learn more](https://developers.google.com/search/docs/data-types/dataset).
+### [HowTo.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/HowTo.json)
+The [HowTo schema](https://schema.org/HowTo) is used to explicitly tell Google that your content is a how-to. A how-to walks users through a set of steps to successfully complete a task, and can feature video, images, and text. For example, “How to tie a tie” or “How to tile a kitchen backsplash”. If each step in your how-to must be read in sequence, it's a good sign that HowTo structured data could benefit your content. [Learn more](https://developers.google.com/search/docs/data-types/how-to).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Dataset%5C%22%22/)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FHowTo.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22HowTo%5C%22%22/)
 <br><br>
 
 
