@@ -8,20 +8,24 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
-**Feb 25th 2019** (View)
+<strong>Feb 25th 2019</strong> (View)
 </summary>
+<p></p>
 <p>
 Another uproar hits the web after SEJ posts that Google has declared [Structured Data shouldn't be inserted via Google Tag Manager](https://www.searchenginejournal.com/google-advises-against-using-tag-manager-to-implement-structured-data/294923/). While it's tough to argue against such a reputable source, I'd like to point out that one important quote was omitted in the article from the discussion. "[While **you can use GTM to add SD to pages**, and some people do, it's more complex and brittle.](https://twitter.com/JohnMu/status/1098520235181834240)" The article also pointed to the fact that the Structured Data testing tool can't see SD that's been inserted onto a page by GTM as proof that it's not meant to be done. But this is a fairly well known issue that is worked around by inserting it via Javascript (See below). [I've asked @JohnMu](https://twitter.com/j_holtslander/status/1100092957162500096) to elaborate or affirm but he never seems to address these challenging questions directly. Or [he's cryptic about it](https://twitter.com/j_holtslander/status/1100103263796355076). John is always cited as the guy who is saying GTM insertion shouldn't be done, but he's also a guy who knows that it can be done successfully.
 </p>
+<hr>
 </details>
 
 <details>
 <summary>
-**Jul 13th 2018** (View)
+<strong>Jul 13th 2018</strong> (View)
 </summary>
+<p></p>
 <p>
 Google's Structured Data Testing Tool has stopped seeing Structured Data thats been inserted via Google Tag Manager. This caused a minor little uproar on Twitter when Google's John Mueller tweeted a response of "[I wouldn't rely on a tool like GTM to add Structured Data](https://twitter.com/thisisdelbert/status/1017098840422244352)". One blog immediately ~[twisted this into](http://www.thesempost.com/google-dont-rely-google-tag-manager-structured-data/)~ wrote that Google itself has now declared that GTM should not be used for inserting Structured Data. Which [is ridiculous](https://twitter.com/MattLacuesta/status/1017121141687664640). A new way to insert Structured Data via Google Tag Manager has been found by [Simo Ahava](https://www.simoahava.com/analytics/add-html-elements-page-programmatically/) and this method allows for the testing tool to detect the Structured Data 100% fine.<br><br><img src="https://media0.giphy.com/media/Yl5aO3gdVfsQ0/giphy.gif" width="100%">
 </p>
+<hr>
 </details>
 
 
