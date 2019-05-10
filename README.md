@@ -373,13 +373,6 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 <hr>
 </details>
 
-
-
-
-## Say "Thank you"
-If you found this saved you time, or helped you in any way, feel free to buy me a coffee.
-
-
 ## Testing
   ### The code
   * [Structured-Data-Test-Button Wordpress Plugin](https://en-ca.wordpress.org/plugins/structured-data-test-button/)
