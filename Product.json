@@ -2,9 +2,9 @@
 {
 	"@context": "http://www.schema.org",
 	"@type": "Product",
-	"brand": "Adobe",
-	"name": "Photoshop",
-	"alternateName": "Adobe Photoshop",
+	"brand": "Adobe Inc",
+	"name": "Adobe Photoshop",
+	"alternateName": "Photoshop",
 	"url": "https://www.adobe.com/photoshop/",
 	"description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, this software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
 	"sku":"65206830BC01A12",
