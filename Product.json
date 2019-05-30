@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+	"@context": "http://www.schema.org",
+	"@type": "Product",
+	"brand": "Adobe",
+	"name": "Photoshop",
+    "alternateName": "Adobe Photoshop",
+    "url": "https://www.adobe.com/photoshop/",
+    "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, this software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
+    "sku":"65206830BC01A12",
+    "mpn": "883919231389",
+	"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/66px-Adobe_Photoshop_CC_icon.svg.png",
+	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/66px-Adobe_Photoshop_CC_icon.svg.png",
+	"sameas": [
+	  "https://twitter.com/photoshop",
+	  "https://facebook.com/photoshop"
+	],
+	"issimilarto": [
+		{
+			"@type": "Product",
+			"brand": "GIMP",
+			"name": "GIMP",
+			"description": "A graphic editor program.",
+			"url": "https://www.gimp.org/",
+			"sameas": [
+			  "https://twitter.com/gimp",
+			  "https://facebook.com/gimp"
+			]
+		},
+		{
+			"@type": "Product",
+			"brand": "Pixlr",
+			"name": "Pixlr",
+			"description": "A graphic editor program.",
+			"url": "https://pixlr.com/",
+			"sameas": [
+			  "https://twitter.com/pixlr",
+			  "https://facebook.com/pixlr"
+			]
+		}
+	]
+}
+</script>
