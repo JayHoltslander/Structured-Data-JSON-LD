@@ -4,16 +4,20 @@
 	"@type": "Product",
 	"brand": "Adobe",
 	"name": "Photoshop",
-    "alternateName": "Adobe Photoshop",
-    "url": "https://www.adobe.com/photoshop/",
-    "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, this software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
-    "sku":"65206830BC01A12",
-    "mpn": "883919231389",
+	"alternateName": "Adobe Photoshop",
+	"url": "https://www.adobe.com/photoshop/",
+	"description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, this software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
+	"sku":"65206830BC01A12",
+	"mpn": "883919231389",
 	"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/66px-Adobe_Photoshop_CC_icon.svg.png",
-	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/66px-Adobe_Photoshop_CC_icon.svg.png",
+	"image": [
+		"https://example.com/photos/1x1/photo.jpg",
+		"https://example.com/photos/4x3/photo.jpg",
+		"https://example.com/photos/16x9/photo.jpg"
+	],
 	"sameas": [
-	  "https://twitter.com/photoshop",
-	  "https://facebook.com/photoshop"
+		"https://twitter.com/photoshop",
+		"https://facebook.com/photoshop"
 	],
 	"issimilarto": [
 		{
@@ -38,6 +42,36 @@
 			  "https://facebook.com/pixlr"
 			]
 		}
-	]
+	],
+	"offers": {
+		"@type": "Offer",
+		"url": "https://example.com/anvil",
+		"priceCurrency": "USD",
+		"price": "119.99",
+		"priceValidUntil": "2020-11-05",
+		"itemCondition": "https://schema.org/UsedCondition",
+		"availability": "https://schema.org/InStock",
+		"seller": {
+		"@type": "Organization",
+			"name": "Executive Objects"
+		}
+	},
+	"review": {
+		"@type": "Review",
+		"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": "5",
+			"bestRating": "5"
+		},
+		"author": {
+			"@type": "Person",
+			"name": "Jay Holtslander"
+		}
+	},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1"
+  }
 }
 </script>
