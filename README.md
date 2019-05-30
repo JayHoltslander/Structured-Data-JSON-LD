@@ -251,6 +251,9 @@ The [Product](https://schema.org/Product) schema in JSON-LD format. [Learn more]
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Product.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FProduct.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Product%5C%22%22/)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/eaQBbK)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?id=cIh8q5xHhgmK3htu3AZmoA)
+<br><br>
 <br><br>
 
 
