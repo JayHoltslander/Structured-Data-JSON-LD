@@ -247,7 +247,7 @@ My personal structured data snippet for "Person" in JSON-LD format.
 
 
 ### [Product.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Product.json)
-The [Product](https://schema.org/Product) schema in JSON-LD format. [Learn more](https://developers.google.com/search/docs/data-types/product)
+The [Product](https://schema.org/Product) schema in JSON-LD format. There are two types of pages where you would typically use this markup: a product page that describes a single product, or a shopping aggregator page that lists a single product, along with information about different sellers offering that product. Don't use this schema on a page that contains many products like a category page. [Learn more](https://developers.google.com/search/docs/data-types/product)
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Product.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FProduct.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Product%5C%22%22/)
