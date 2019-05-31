@@ -1,0 +1,70 @@
+<script type="application/ld+json">
+[
+	// THE ACTUAL LIST
+	{
+		"@context": "http://schema.org",
+		"@type": "ItemList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": "1",
+				"item": { "@id": "http://example.com/#product1" }
+			},
+			{
+				"@type": "ListItem",
+				"position": "2",
+				"item": { "@id": "http://example.com/#product2" }
+			}
+		]
+	},
+    
+	// LIST ITEM 1 (CALLED BY ID FROM THE LIST ABOVE)
+	{
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"@id": "http://example.com/#product1",
+		"name": "productname1",
+		"brand": {"@id": "http://example.com/#acmetshirts"},
+		"image": "http://example.com/product1-thumbnail.jpg",
+		"description": "Product 1 is a great product!",
+		"url": "http://example.com/category-item#1",
+		"category": "home > shop > tshirts > marvel",
+		"sku": "1234",
+		"mpn": "4321"
+	},
+    
+	// LIST ITEM 2 (CALLED BY ID FROM THE LIST ABOVE)
+	{
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"@id": "http://example.com/#product2",
+		"name": "productname2",
+		"brand": {"@id": "http://example.com/#acmetshirts"},
+		"image": "http://example.com/product2-thumbnail.jpg",
+		"description": "New and imporved Product 2!",
+		"url": "http://example.com/category-item#2",
+		"category": "home > shop > tshirts > star wars",
+		"sku": "4321",
+		"mpn": "1234"
+	},
+    
+	// THE SHOP ITSELF (CALLED BY ID FROM THE PRODUCTS)
+	{
+		"@context": "http://schema.org",
+		"@type": "MensClothingStore",
+		"@id": "http://example.com/#acmetshirts",
+		"name": "Acme T-shirts",
+		"description": "Cool T-shirts and licensed apparel.",
+		"priceRange": "$",
+		"telephone": "+15558675309",
+		"image":"https://placehold.it/128",
+		"address":
+		{
+			"@type": "PostalAddress",
+			"addressLocality": "Vancouver",
+			"addressRegion": "BC",
+			"addressCountry": "Canada"
+		}
+	}
+]
+</script>
