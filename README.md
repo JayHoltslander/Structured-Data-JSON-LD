@@ -199,7 +199,7 @@ The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible 
 
 
 ### [ItemList-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-4.json)
-This example shows possible usage for an ecommerce category page with [Product](http://schema.org/CollectionPage) schema items listed within it. This **is** valid schema however Google has stated that the Product schema is for use on "[a product page that describes a single product](https://developers.google.com/search/docs/data-types/product)"
+This example shows possible usage for an ecommerce category page with [Product](http://schema.org/CollectionPage) schema items listed within it. This **is** valid schema however Google has stated that the Product schema is for use on "[a product page that describes a single product](https://developers.google.com/search/docs/data-types/product)" A Google documentation writer had [this to say](https://twitter.com/LizziHarvey/status/1134540730444132352) when asked about this exact snippet/use-case.
 <br><br>
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-4.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
