@@ -198,6 +198,14 @@ The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible 
 <br><br>
 
 
+### [ItemList-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-4.json)
+This example shows possible usage for an ecommerce category page with [Product](http://schema.org/CollectionPage) schema items listed within it. This **is** valid schema however Google has stated that the Product schema is for use on "[a product page that describes a single product](https://developers.google.com/search/docs/data-types/product)"
+<br><br>
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-4.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
+<br><br>
+
+
 ### [JobPosting.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/JobPosting.json)
 Adding structured data makes your job postings eligible to appear in a special user experience in Google Search results leading to increased chances of discovery and conversion. Your postings are eligible to be displayed more prominently in the dedicated Job Search UI, featuring your logo, reviews, ratings, and job details. The new user experience enables job seekers to filter by various criteria like location or job title, meaning you’re more likely to attract applicants who are looking exactly for that job. [Learn more](https://developers.google.com/search/docs/data-types/job-posting).
 <br><br>
