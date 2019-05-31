@@ -8,12 +8,12 @@
 			{
 				"@type": "ListItem",
 				"position": "1",
-				"item": { "@id": "http://example.com#product1" }
+				"item": { "@id": "http://example.com/#product1" }
 			},
 			{
 				"@type": "ListItem",
 				"position": "2",
-				"item": { "@id": "http://example.com#product2" }
+				"item": { "@id": "http://example.com/#product2" }
 			}
 		]
 	},
