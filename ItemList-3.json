@@ -4,7 +4,7 @@
 	"@type":"ItemList",
 	"mainEntityOfPage":{
 		"@type":"CollectionPage",
-		"@id":"https:\/\/9gag.com\/"
+		"@id":"https://example.com/"
 	},
 	"itemListElement": [
 		{
