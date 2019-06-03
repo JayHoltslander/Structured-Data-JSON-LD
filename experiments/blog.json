@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+	"@context":"http://schema.org/",
+	"@type":"Blog",
+	"headline":"All things Schema  - Structured Data news",
+	"description":"Looking after everything Structured Data",
+	"url":"https://www.example.com",
+	"blogPost":[
+		{"@id": "#post-id-1"},
+		{"@id": "#post-id-2"},
+		{"@id": "#post-id-3"},
+		{"@id": "#post-id-4"},
+		{"@id": "#post-id-5"}
+	]
+}
+</script>
