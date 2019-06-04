@@ -1,4 +1,17 @@
+<!-- 
+Building off the example seen at:
+https://search.google.com/structured-data/testing-tool?url=https://www.consoglobe.com/#url=https%3A%2F%2Fwww.consoglobe.com%2F
+-->
+
 <script type="application/ld+json">
+[
+// PUBLISHER
+{
+	"@context":"http://schema.org/",
+	"@type":"Organization",
+	"name": "All things Schema"
+},
+// BLOG INDEX
 {
 	"@context":"http://schema.org/",
 	"@type":"Blog",
@@ -12,5 +25,20 @@
 		{"@id": "#post-id-4"},
 		{"@id": "#post-id-5"}
 	]
+},
+// BLOG POST
+{
+	"@context":"http://schema.org/",
+	"@type":"BlogPosting",
+	"@id": "#post-id-1",
+    "name": "POST 1 TITLE!",
+	"author": "value",
+	"datePublished": "01/01/2019",
+	"dateModified": "01/01/2019",
+	"headline": "value",
+    "mainEntityOfPage": "value",
+	"image": "http://placehold.it/640",
+	"publisher": {"@id": "#Organization"}
 }
+]
 </script>
