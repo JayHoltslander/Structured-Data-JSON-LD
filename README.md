@@ -8,6 +8,15 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>Apr 16th 2019</strong> (View)
+</summary>
+<p></p>
+Yoast adds drastically enhanced Structured Data support to Wordpress with their latest version of their plugin. <a href="https://yoast.com/schema-org-is-hard-were-making-it-easy/">Read more</a>.
+<hr>
+</details>
+
+<details>
+<summary>
 <strong>Feb 25th 2019</strong> (View)
 </summary>
 <p></p>
@@ -89,7 +98,10 @@ document.head.appendChild(el);
 <details>
 <summary><strong>C.) Use a Wordpress plugin</strong> (Learn more)</summary>
 <p></p>
-<ul><li>https://wpschema.com/schema-types/</li></ul>
+<ul>
+ <li>https://yoast.com/schema-org-is-hard-were-making-it-easy/</li>
+ <li>https://wpschema.com/schema-types/</li>
+</ul>
 <p></p>
  <hr>
 </details>
