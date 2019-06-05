@@ -1,0 +1,84 @@
+{
+	"@context":"https://schema.org",
+	"@graph": [
+		{
+			"@type": [
+				"Person",
+				"Organization"
+			],
+			"@id":"http://example.com/#person",
+			"name":"Site Owner",
+			"image": {
+				"@type":"ImageObject",
+				"@id":"http://example.com/#personlogo",
+				"url":"http://example.com/wp-content/uploads/2019/04/avatar.jpg",
+				"width":400,
+				"height":400,
+				"caption":"Logo"
+			},
+			"logo": {
+				"@id":"http://example.com/#personlogo"
+			},
+			"sameAs": [
+			]
+		},
+		{
+			"@type":"WebSite",
+			"@id":"http://example.com/#website",
+			"url":"http://example.com/",
+			"name":"structured-data",
+			"publisher": {
+				"@id":"http://example.com/#person"
+			},
+			"potentialAction": {
+				"@type":"SearchAction",
+				"target":"http://example.com/?s={search_term_string}",
+				"query-input":"required name=search_term_string"
+			}
+		},
+		{
+			"@type":"WebPage",
+			"@id":"http://example.com/2019/06/04/my-post-title/#webpage",
+			"url":"http://example.com/2019/06/04/my-post-title/",
+			"inLanguage":"en-US",
+			"name":"My Post title | structured-data",
+			"isPartOf": {
+				"@id":"http://example.com/#website"
+			},
+			"image": {
+				"@type":"ImageObject",
+				"@id":"http://example.com/2019/06/04/my-post-title/#primaryimage",
+				"url":"http://example.com/wp-content/uploads/2017/04/55-Water-Street.jpg",
+				"width":1000,
+				"height":667
+			},
+			"primaryImageOfPage": {
+				"@id":"http://example.com/2019/06/04/my-post-title/#primaryimage"
+			},
+			"datePublished":"2019-06-04T21:31:28+00:00",
+			"dateModified":"2019-06-04T22:14:39+00:00"
+		},
+		{
+			"@type":"Article",
+			"@id":"http://example.com/2019/06/04/my-post-title/#article",
+			"isPartOf": {
+				"@id":"http://example.com/2019/06/04/my-post-title/#webpage"
+			},
+			"author": {
+				"@id":"http://example.com/#person"
+			},
+			"headline":"My Post title",
+			"datePublished":"2019-06-04T21:31:28+00:00",
+			"dateModified":"2019-06-04T22:14:39+00:00",
+			"commentCount":0,
+			"mainEntityOfPage":"http://example.com/2019/06/04/my-post-title/#webpage",
+			"publisher": {
+				"@id":"http://example.com/#person"
+			},
+			"image": {
+				"@id":"http://example.com/2019/06/04/my-post-title/#primaryimage"
+			},
+			"articleSection":""
+		}
+	]
+}
