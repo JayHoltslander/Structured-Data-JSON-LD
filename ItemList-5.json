@@ -23,7 +23,7 @@
   "@type":"ListItem",
   "@id": "#Item1",
   "url":"https://google.com/mylist#Item1",
-  "name": "First Item",
+  "name": "First Item"
 }
 </script>
 
