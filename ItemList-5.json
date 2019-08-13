@@ -1,0 +1,67 @@
+<!-- THE LIST ITSELF -->
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "ItemList",
+  "url":"https://google.com/mylist",
+ "itemListElement":
+ [
+  {"@type": "ListItem","position": 1,"item":{"@id": "#Item1"}},
+  {"@type": "ListItem","position": 2,"item":{"@id": "#Item2"}},
+  {"@type": "ListItem","position": 3,"item":{"@id": "#Item3"}},
+  {"@type": "ListItem","position": 4,"item":{"@id": "#Item4"}}
+ ]
+}
+</script>
+
+
+
+<!-- ITEM 1's SCHEMA BLOCK -->
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"ListItem",
+  "@id": "#Item1",
+  "url":"https://google.com/mylist#Item1",
+  "name": "First Item",
+}
+</script>
+
+
+
+<!-- ITEM 2's SCHEMA BLOCK -->
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"ListItem",
+  "@id": "#Item2",
+  "url":"https://google.com/mylist#Item2",
+  "name": "Second Item"
+}
+</script>
+
+
+
+<!-- ITEM 3's SCHEMA BLOCK -->
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"ListItem",
+  "@id": "#Item3",
+  "url":"https://google.com/mylist#Item3",
+  "name": "Third Item"
+}
+</script>
+
+
+
+<!-- ITEM 4's SCHEMA BLOCK -->
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"ListItem",
+  "@id": "#Item4",
+  "url":"https://google.com/mylist#Item4",
+  "name": "Third Item"
+}
+</script>
