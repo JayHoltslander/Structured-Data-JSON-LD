@@ -441,6 +441,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 
 ### Discussions
 * **[Structured data markup for multi-location businesses](https://productforums.google.com/forum/#!topic/webmasters/RNTOPTweJZk)**
+* **[Using multiple types per page](https://twitter.com/googlewmc/status/1165903665099616258?s=20)**
 
 ### Sources
 * **Reference - Local Business** - <http://linter.structured-data.org/examples/schema.org/LocalBusiness/>
