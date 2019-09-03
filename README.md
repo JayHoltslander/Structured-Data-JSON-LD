@@ -430,6 +430,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
 * **[FAQPage Schema Generator](https://saijogeorge.com/json-ld-schema-generator/faq/)** 
 
 ### Articles
+* **Content mismatch? Missing Schema on AMP pages** - <https://www.searchenginejournal.com/structured-data-amp/323523/>
 * **FAQ, HowTo, and Q&A: Using New Schema Types to Create Interactive Rich Results** - <https://moz.com/blog/new-schema-types-to-create-interactive-rich-results>
 * **Schema Markup Structured Data 2018 Guide** - <https://presencemedia.io/schema-markup-structured-data-2018-guide/>
 * **Good instructions** - <https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/>
