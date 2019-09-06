@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Movie",
+	"url": "https://example.com/diehard",
+	"name": "Die Hard",
+	"image": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	"dateCreated": "1988-07-20",
+	"director": "John McTiernan",
+	"review": {
+		"@type": "Review",
+		"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": "5"
+		},
+		"author": {
+			"@type": "Person",
+			"name": "Roger Ebert"
+		},
+		"reviewBody": "The idea has a certain allure to it: A cop is trapped inside a high-rise with a team of desperate terrorists. He is all that stands between them and their hostages. Give the terrorist leader brains and a personality, make one of the hostages the estranged wife of the cop and you've got a movie."
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "72",
+			"bestRating": "100",
+			"ratingCount": "1115"
+		}
+	}
+}
+</script>
