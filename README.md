@@ -8,6 +8,15 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>Sept 13th 2019</strong> (View)
+</summary>
+<p></p>
+Google's John Mueller clarified on the September 11 edition of &#35;AskGoogleWebmasters that JSON structured data can be inserted in the head as well as the body of your pages. <a href="https://searchengineland.com/yes-you-can-add-json-structured-data-to-the-body-of-your-pages-321870">Read more</a>.
+<hr>
+</details>
+
+<details>
+<summary>
 <strong>Apr 16th 2019</strong> (View)
 </summary>
 <p></p>
@@ -41,8 +50,8 @@ Total newb to all this? See [this great beginner's guide](https://moz.com/blog/w
 <summary><strong>A.) Hand code it in</strong> (Learn more)</summary>
 <p></p>
 <p>Ugh! This is not easily maintainable at scale.</p>
-<p>Although the Structured Data CAN be placed in the head and work properly, <a href="https://developers.google.com/search/docs/data-types/how-to">Google's examples</a> show it being placed in the body immediately after the opening body tag.</p>
-<p>Their CodeLab <a href="https://codelabs.developers.google.com/codelabs/structured-data/index.html#2" target="_blank">shows it in the head</a> though.</p>
+<p><strike>Although the Structured Data CAN be placed in the head and work properly, <a href="https://developers.google.com/search/docs/data-types/how-to">Google's examples</a> show it being placed in the body immediately after the opening body tag. Their CodeLab <a href="https://codelabs.developers.google.com/codelabs/structured-data/index.html#2" target="_blank">shows it in the head</a> though.</strike></p>
+<p>Google's John Mueller clarified on the September 11 edition of &#35;AskGoogleWebmasters that JSON structured data can be inserted in the head as well as the body of your pages. <a href="https://searchengineland.com/yes-you-can-add-json-structured-data-to-the-body-of-your-pages-321870">Read more</a></p> 
 <p></p>
  <hr>
 </details>
