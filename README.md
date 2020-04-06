@@ -8,6 +8,15 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>Apr 6th 2020</strong> (View)
+</summary>
+<p></p>
+Google has released documentation to guide the implementation of structured data via JavaScript, whether by using Google Tag Manager with JSON-LD or custom JS. <a href="https://developers.google.com/search/docs/guides/generate-structured-data-with-javascript?utm_source=Aleyda%27s+SEO+Tips&utm_campaign=3cb2cbbccd-seofomo-newsletter-by-aleyda-April-5&utm_medium=email&utm_term=0_408af963b1-3cb2cbbccd-1285072705&mc_cid=3cb2cbbccd&mc_eid=2f3d3736ab">Read more</a>.
+<hr>
+</details>
+
+<details>
+<summary>
 <strong>Sept 13th 2019</strong> (View)
 </summary>
 <p></p>
