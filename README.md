@@ -8,6 +8,15 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>May 25th 2020</strong> (View)
+</summary>
+<p></p>
+<a href="https://twitter.com/TonyMcCreath">Tony McCreath</a> has created a very cool tool to visualize structured data at any given URL. Simply enter a URL by clicking the "Fetch from URL" button and behold. <a href="https://classyschema.org/Visualisation">Try it out</a>!
+<hr>
+</details>
+
+<details>
+<summary>
 <strong>Apr 6th 2020</strong> (View)
 </summary>
 <p></p>
