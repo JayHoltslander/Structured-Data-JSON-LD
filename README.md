@@ -8,6 +8,17 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>Dec 15th 2020</strong> (View)
+</summary>
+<p></p>
+Google provides an update on their Structured Data Testing Tool's future. (Saved!) <a href="https://developers.google.com/search/blog/2020/12/structured-data-testing-tool-update)">Read more</a>!
+<hr>
+</details>
+
+
+
+<details>
+<summary>
 <strong>May 25th 2020</strong> (View)
 </summary>
 <p></p>
