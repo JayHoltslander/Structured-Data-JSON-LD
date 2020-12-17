@@ -446,6 +446,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
   * [ ] [NewsArticle](http://schema.org/NewsArticle) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22NewsArticle%5C%22%22/))
   * [x] ~~[BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#blogposting)~~
   * [ ] [TechArticle](http://schema.org/TechArticle) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22TechArticle%5C%22%22/))
+  * [ ] [Paywalls](https://developers.google.com/search/docs/data-types/paywalled-content)
 * [ ] [Report](http://schema.org/Report) ([Examples](https://publicwww.com/websites/%22%5C%22%40type%5C%22%3A%5C%22Report%5C%22%22/))
 * [x] ~~[Course](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/README.md#coursejson)~~
   * [ ] [List of Courses](https://developers.google.com/search/docs/data-types/course)
