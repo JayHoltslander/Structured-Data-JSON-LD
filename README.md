@@ -8,6 +8,17 @@ Structured Data is hard when you're starting out. Conflicting info. Old outdated
 ### Structured Data News
 <details>
 <summary>
+<strong>Aug 15th 2022</strong> (View)
+</summary>
+<p></p>
+Google has added a clarification in its product structured data documentation around GTIN usage. <a href="https://developers.google.com/search/docs/advanced/structured-data/product">Read more</a>!
+<hr>
+</details>
+
+
+
+<details>
+<summary>
 <strong>Dec 15th 2020</strong> (View)
 </summary>
 <p></p>
