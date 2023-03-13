@@ -160,14 +160,14 @@ document.head.appendChild(el);
 ### [AggregateRating.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/AggregateRating.json)
 An average rating based on multiple ratings or reviews utilizing the [AggregateRating schema](http://schema.org/AggregateRating). Be sure to read [this article](https://whitespark.ca/blog/how-to-use-aggregate-review-schema-to-get-stars-in-the-serps/) to see why using this example as written might not be the best idea. Hmm. 🤔 Also note that using a 3rd party's ratings (like say Google or Yelp) for a [localBusiness](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness.json) [seems to](https://developers.google.com/search/docs/data-types/review#review-snippet-guidelines) go [against Google's guidelines](https://searchengineland.com/google-gives-thumbs-up-on-placing-your-local-reviews-from-yelp-google-maps-others-on-your-own-web-site-305009). BUT, also see [this note](https://www.schemaapp.com/how-to/get-rating-rich-results-for-local-business-with-third-party-reviews/) on using 3rd party reviews.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/AggregateRating.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FAggregateRating.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/AggregateRating.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22AggregateRating%5C%22%22/)
 <br><br>
 
 ### [Article.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Article.json)
 If you’re a publisher website, the more specific schema types like [NewsArticle](https://schema.org/NewsArticle) or [BlogPosting](https://schema.org/BlogPosting) are recommended (choose one or the other, depending on your site/content). Leveraging these markups accordingly can help your content to appear in Google News and in-depth articles search suggestions. See: [Enabling Rich Snippets for Articles](https://developers.google.com/structured-data/rich-snippets/articles). **Note:** To show up in Google's News Carousel not only will the page require Structured Data but it's also [required to be a valid AMP page](https://developers.google.com/search/docs/data-types/article). If you are using the [official AMP Plugin for Wordpress](https://en-ca.wordpress.org/plugins/amp/) you will definitely want to use Tag Manager to insert your Structured Data as opposed to other methods since you will be able to [dynamically generate Schema.org JSON-LD Tags](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags) from pages that contain the correct pattern for your posts. **eg:** ``?amp=1`` or ``/amp``
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Article.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FArticle.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Article.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Article%5C%22%22/)
 <br><br>
 
@@ -175,7 +175,7 @@ If you’re a publisher website, the more specific schema types like [NewsArticl
 ### [BlogPosting](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BlogPosting.json)
 An even more specific version of Article for a blog post. See the [BlogPosting schema](http://schema.org/BlogPosting) for more info.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FBlogPosting.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FBlogPosting.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22BlogPosting%5C%22%22/)
 <br><br>
 
@@ -183,7 +183,7 @@ An even more specific version of Article for a blog post. See the [BlogPosting s
 ### [BreadcrumbList.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/BreadcrumbList.json)
 The [BreadcrumbList schema](https://schema.org/BreadcrumbList) allows you to mark up the breadcrumbs on your site to generate breadcrumb rich snippets for your pages in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/breadcrumb).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/BreadcrumbList.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/BreadcrumbList.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22BreadcrumbList%5C%22%22/)
 <br><br>
 
@@ -191,7 +191,7 @@ The [BreadcrumbList schema](https://schema.org/BreadcrumbList) allows you to mar
 ### [Course.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Course.json)
 The [Course schema](https://schema.org/Course) allows you to mark up courses on your site to generate rich snippets for your courses in the SERPs. [Learn more](https://developers.google.com/search/docs/data-types/course).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FCourse.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FCourse.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Course%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/zQrQva)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?id=b-k05GunnsO9yaPinYtNeQ)
@@ -201,7 +201,7 @@ The [Course schema](https://schema.org/Course) allows you to mark up courses on 
 ### [Dataset.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Dataset.json)
 The [Dataset schema](https://schema.org/Dataset) is for a body of structured information describing some topic(s) of interest. It should use the sameAs property to link to the canonical page.  [Learn more](https://developers.google.com/search/docs/data-types/dataset).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FDataset.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Dataset%5C%22%22/)
 <br><br>
 
@@ -209,7 +209,7 @@ The [Dataset schema](https://schema.org/Dataset) is for a body of structured inf
 ### [FAQPage.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/FAQPage.json)
 The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (obviously) for a FAQ page. A Frequently Asked Question (FAQ) page contains a list of questions and answers pertaining to a particular topic. Properly marked up FAQ pages may be eligible to have a rich result on Search and Markup Action for the Google Assistant, which can help your site reach the right users. [Learn more](https://developers.google.com/search/docs/data-types/faqpage).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FFAQPage.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FFAQPage.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22FAQPage%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/oRbVZz)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?view=search-preview&id=jaYFrmUJmNTLsNHnby6dVw)
@@ -219,7 +219,7 @@ The [FAQPage schema](https://schema.org/FAQPage) is different than Q&A and is (o
 ### [HowTo.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/HowTo.json)
 The [FAQPage schema](https://schema.org/HowTo) is used to explicitly tell Google that your content is a how-to. A how-to walks users through a set of steps to successfully complete a task, and can feature video, images, and text. For example, “How to tie a tie” or “How to tile a kitchen backsplash”. If each step in your how-to must be read in sequence, it's a good sign that HowTo structured data could benefit your content. [Learn more](https://developers.google.com/search/docs/data-types/how-to).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FHowTo.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FHowTo.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22HowTo%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/ardxGE)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?id=Fal0K7qVXsPqyMcbTpFiuQ)
@@ -229,7 +229,7 @@ The [FAQPage schema](https://schema.org/HowTo) is used to explicitly tell Google
 ### [ImageObject.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ImageObject.json)
 An example of the [ImageObject](http://schema.org/ImageObject) schema. Demonstrates use of the [exifData](http://schema.org/exifData) schema.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FImageObject.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FImageObject.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ImageObject%5C%22%22/)
 <br><br>
 
@@ -237,7 +237,7 @@ An example of the [ImageObject](http://schema.org/ImageObject) schema. Demonstra
 ### [ItemList-1.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-1.json)
 The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices ([Screenshot](https://developers.google.com/search/docs/guides/images/search-features03-HostCarousel.png)). This example is for a summary page which has a short description of each item in the list, and each item points to a separate details page that is focused entirely on one item. The details page is where the more detailed Structured Data on the item would be located. See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#summary-page--multiple-full-details-pages
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-1.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-1.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
 <br><br>
 
@@ -246,7 +246,7 @@ The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible 
 The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices ([Screenshot](https://developers.google.com/search/docs/guides/images/search-features03-HostCarousel.png)). This example is for a single, all-in-one-page list hosts all list information, including full text of each item: for example, a gallery of recipes for various kinds of muffins, all contained on one page.
 See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#single-all-in-one-page-list
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-2.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-2.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
 <br><br>
 
@@ -254,7 +254,7 @@ See: Docs https://developers.google.com/search/docs/guides/mark-up-listings#sing
 ### [ItemList-3.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-3.json)
 The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible for the [Carousel Feature](https://developers.google.com/search/docs/guides/mark-up-listings) on mobile devices ([Screenshot](https://developers.google.com/search/docs/guides/images/search-features03-HostCarousel.png)). This example shows usage with the [CollectionPage](http://schema.org/CollectionPage) schema. 
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-3.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-3.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
 <br><br>
 
@@ -262,7 +262,7 @@ The [ItemList](http://schema.org/ItemList) schema makes a page's items eligible 
 ### [ItemList-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-4.json)
 This example shows possible usage for an ecommerce category page with [Product](http://schema.org/CollectionPage) schema items listed within it. This **is** valid schema however Google has stated that the Product schema is for use on "[a product page that describes a single product](https://developers.google.com/search/docs/data-types/product)" A Google documentation writer had [this to say](https://twitter.com/LizziHarvey/status/1134540730444132352) when asked about this exact snippet/use-case.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-4.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-4.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
 <br><br>
 
@@ -270,7 +270,7 @@ This example shows possible usage for an ecommerce category page with [Product](
 ### [ItemList-5.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ItemList-5.json)
 Another example of a list similiar to the example above but laid out differently.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-5.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ItemList-5.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ItemList%5C%22%22/)
 <br><br>
 
@@ -278,7 +278,7 @@ Another example of a list similiar to the example above but laid out differently
 ### [JobPosting.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/JobPosting.json)
 Adding structured data makes your job postings eligible to appear in a special user experience in Google Search results leading to increased chances of discovery and conversion. Your postings are eligible to be displayed more prominently in the dedicated Job Search UI, featuring your logo, reviews, ratings, and job details. The new user experience enables job seekers to filter by various criteria like location or job title, meaning you’re more likely to attract applicants who are looking exactly for that job. [Learn more](https://developers.google.com/search/docs/data-types/job-posting).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool/u/0/?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/JobPosting.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FJobPosting.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/JobPosting.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22JobPosting%5C%22%22/)
 <br><br>
 
@@ -286,7 +286,7 @@ Adding structured data makes your job postings eligible to appear in a special u
 ### [LocalBusiness.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness.json)
 An example of a LocalBusiness with multiple locations defined. Each location having it's own defined service areas.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22LocalBusiness%5C%22%22/)
 <br><br>
 
@@ -294,7 +294,7 @@ An example of a LocalBusiness with multiple locations defined. Each location hav
 ### [LocalBusiness-2.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-2.json)
 An example of a LocalBusiness customized for a law firm. Demonstrates combined @types (LocalBusiness/Organization/LegalService) and [Corporate Contact](https://developers.google.com/search/docs/data-types/corporate-contact) useage.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-2.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-2.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22LocalBusiness%5C%22%22/)
 <br><br>
 
@@ -302,7 +302,7 @@ An example of a LocalBusiness customized for a law firm. Demonstrates combined @
 ### [LocalBusiness-3.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-3.json)
 A detailed example of a complex LocalBusiness customized for a Notary. Demonstrates combined @types (LocalBusiness/Organization/Notary) and [Corporate Contact](https://developers.google.com/search/docs/data-types/corporate-contact) useage.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-3.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-3.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22LocalBusiness%5C%22%22/)
 <br><br>
 
@@ -310,21 +310,21 @@ A detailed example of a complex LocalBusiness customized for a Notary. Demonstra
 ### [LocalBusiness-4.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/LocalBusiness-4.json)
 An example of a LocalBusiness customized for an online store with no physical location. Demonstrates combined @types (LocalBusiness/Organization/Store)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-4.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FLocalBusiness-4.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22LocalBusiness%5C%22%22/)
 <br><br>
 
 ### [Movie.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Movie.json)
 The [Movie](https://schema.org/Movie) schema in JSON-LD format. Mark up your movie lists with structured data so users can explore movies through Google Search. You can provide details about the movies, such as the title of the movie, director of the movie, and an image of the movie. The movie carousel is only available on mobile devices. [Learn more](https://developers.google.com/search/docs/data-types/movie)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Movie.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FMovie.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Movie.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Movie%5C%22%22/)
 <br><br>
 
 ### [Person.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Person.json)
 My personal structured data snippet for "Person" in JSON-LD format.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Person.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FPerson.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Person.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Person%5C%22%22/)
 <br><br>
 
@@ -332,7 +332,7 @@ My personal structured data snippet for "Person" in JSON-LD format.
 ### [Product.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Product.json)
 The [Product](https://schema.org/Product) schema in JSON-LD format. There are two types of pages where you would typically use this markup: a product page that describes a single product, or a shopping aggregator page that lists a single product, along with information about different sellers offering that product. Don't use this schema on a page that contains many products like a category page. [Learn more](https://developers.google.com/search/docs/data-types/product)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Product.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FProduct.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Product.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Product%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/eaQBbK)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?id=cIh8q5xHhgmK3htu3AZmoA)
@@ -342,7 +342,7 @@ The [Product](https://schema.org/Product) schema in JSON-LD format. There are tw
 ### [Question-w-Answers.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Question-w-Answers.json)
 An example of some markup that results in Rich Snippets for Questions as observed in the wild being used on [Stack Exchange websites](https://stackexchange.com/sites). [SERP Screenshot](http://cdn.skunkworks.ca.s3.amazonaws.com/temp-screenshots/Screen_Shot_2017-12-07_at_11.44.40_AM.png) This example includes additional Schema types for "Answer" and "QAPage" which do not seem to be required but complement each other.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FQuestion-w-Answers.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FQuestion-w-Answers.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22QAPage%5C%22%22/)
 <br><br>
 
@@ -350,7 +350,7 @@ An example of some markup that results in Rich Snippets for Questions as observe
 ### [Recipe.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Recipe.json)
 The [Recipe](http://schema.org/Recipe) schema can result in Rich Snippets for Recipes. [Learn more](https://developers.google.com/search/docs/data-types/recipe).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FRecipe.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FRecipe.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Recipe%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/OYMYdm)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/rich-button.png)](https://search.google.com/test/rich-results?id=-7fb_DYUfbQguubK42_sbw)
@@ -360,7 +360,7 @@ The [Recipe](http://schema.org/Recipe) schema can result in Rich Snippets for Re
 ### [Service.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/Service.json)
 A collection of services that a LocalBusiness may provide with per/service ratings.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Service.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FService.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/Service.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Service%5C%22%22/)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/codepen-button.png)](https://codepen.io/j_holtslander/pen/ZNQNNV)
 <br><br>
@@ -369,7 +369,7 @@ A collection of services that a LocalBusiness may provide with per/service ratin
 ### [ServiceArea](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ServiceArea.json)
 How to define a service area for a local business.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FServiceArea.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FServiceArea.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ServiceArea%5C%22%22/)
 <br><br>
 
@@ -377,7 +377,7 @@ How to define a service area for a local business.
 ### [SiteNavigationElement.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SiteNavigationElement.json)
 The [SiteNavigationElement schema](http://schema.org/SiteNavigationElement) can help increase search engines’ understanding of your site structure and navigation and can be used to influence organic sitelinks. (See also WPHeader on this page for an example of usage within a Navbar!)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/SiteNavigationElement.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSiteNavigationElement.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/SiteNavigationElement.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22SiteNavigationElement%5C%22%22/)
 <br><br>
 
@@ -385,7 +385,7 @@ The [SiteNavigationElement schema](http://schema.org/SiteNavigationElement) can 
 ### [SpeakableSpecification](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/SpeakableSpecification.json)
 For Voice search a SpeakableSpecification indicates via css selector(s) sections of a document that are highlighted as particularly speakable. See [this article](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https%3A%2F%2Fwww.effektiv.com%2Fready-for-voice-search-strukturierte-daten-nach-schema-org-verfuegbar-4464.html) for more info.
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSpeakableSpecification.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FSpeakableSpecification.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22SpeakableSpecification%5C%22%22/)
 <br><br>
 
@@ -398,7 +398,7 @@ Includes:
   * WPSidebar
   * WPFooter
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/WebSite.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/WebSite.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22Website%5C%22%22/)
 <br><br>
 
@@ -406,7 +406,7 @@ Includes:
 ### [WPHeader.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WPHeader.json)
 ("Webpage Header" not "Wordpress Header") Define structured Data for items within a site's header with the [WPHeader schema](http://schema.org/WPHeader). Includes SiteNavigationElements within! Also see an example of this in use within the snippet [WebSite.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/WebSite.json)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FWPHeader.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FWPHeader.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22WPHeader%5C%22%22/)
 <br><br>
 
@@ -414,7 +414,7 @@ Includes:
 ### [VideoObject.json](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/VideoObject.json)
 A site with embedded or hosted video content can leverage the VideoObject schema. Google primarily displays video rich snippets for YouTube videos, but this will help video rich snippets to appear for your Web pages in Google Video Search. Google Resource Page: [Enabling Rich Snippets for Videos](https://developers.google.com/structured-data/rich-snippets/videos)
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/VideoObject.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FVideoObject.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/VideoObject.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22VideoObject%5C%22%22/)
 <br><br>
 
@@ -422,7 +422,7 @@ A site with embedded or hosted video content can leverage the VideoObject schema
 ### [ViewAction](https://github.com/JayHoltslander/Structured-Data-JSON-LD/blob/master/ViewAction.json)
 Indicates where something should be viewed. One of the most common implementations is in Google App indexing, where it enables a URL from a website indexed in search results, to be opened inside the corresponding App (if installed in the user's device).
 <br><br>
-[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://search.google.com/structured-data/testing-tool?url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ViewAction.json#url=https%3A%2F%2Fraw.githubusercontent.com%2FJayHoltslander%2FStructured-Data-JSON-LD%2Fmaster%2FViewAction.json)
+[![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button.png)](https://validator.schema.org/#url=https://raw.githubusercontent.com/JayHoltslander/Structured-Data-JSON-LD/master/ViewAction.json)
 [![](https://github.com/JayHoltslander/Structured-Data-JSON-LD/raw/master/button-2.png)](https://publicwww.com/websites/%22%40type%5C%22%3A%5C%22ViewAction%5C%22%22/)
 <br><br>
 
@@ -472,7 +472,7 @@ You can link snippets together and reuse them ([DRY](https://en.wikipedia.org/wi
   ### The code
   * [Structured-Data-Test-Button Wordpress Plugin](https://en-ca.wordpress.org/plugins/structured-data-test-button/)
   * Yoast's admin bar functions
-  * The Google [Structured Data Test Tool](https://search.google.com/structured-data/testing-tool).
+  * The [Schema.org Validator Tool](https://validator.schema.org/).
 
   ### The results
   * [Rich Results Test](https://search.google.com/test/rich-results)
